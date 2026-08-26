@@ -1,53 +1,50 @@
 {
-  "title": "Structural Intelligence Compass: A 12-Point Research Compass for Structural Intelligence",
-  "description": "The Structural Intelligence Compass is an open research framework for examining intelligence, computation, reasoning, organization, and their boundaries from twelve structural directions. Version 0.2.0 preserves the original 12-Point Compass as the research baseline while adding a Post-Release Structural Delta through the Additional Thoughts series. The new material develops Structural Differential Computation for personalized target discovery; Calling-Path Folding as a recurring computational pattern; Enumerative Structure as a computational possibility space; Local Learned Intelligence and Grounded Structural IR; Technology Convergence and Policy Surfaces; and a candidate synthesis direction toward Policy-Driven Structural Hybrid Intelligence. The release further distinguishes Problem Space from Intelligence Space, expands Per-Node Intelligence beyond single-model architectures, introduces Learn-on-Demand intelligence as a general organizational capability, and develops the progression from Structural Discovery to Structural Synthesis and Structural Evolution. Point 12 intentionally remains open: Policy-Driven Structural Hybrid Intelligence is presented as an emerging candidate interpretation rather than a final closed definition.",
-  "upload_type": "publication",
-  "publication_type": "other",
+  "title": "Structural Theory of AI Reasoning — From LLM Unfolding to Structural Localization and Living Reasoning",
+  "description": "Structural Theory of AI Reasoning develops a structural explanation of AI reasoning that connects the latent and distributed reasoning capabilities of Large Language Models with the explicit localization, traversal, gap bridging, forward extension, validation, persistence, and structural growth mechanisms of Structural Intelligence. The repository distinguishes reasoning answers from reasoning structure growth, interprets LLM reasoning through a Folding–Unfolding framework, introduces the complementary relationship between LLM Unfolding and Structural Intelligence Localization, and develops a Living Reasoning Loop in which validated reasoning outputs can become persistent infrastructure for future reasoning. The framework further explores future AI reasoning architectures based on heterogeneous Per-Node intelligence, Differential Trees, Calling Graphs, TaskGraphs, Action Calling Graphs, CCCs, Structural Runtimes, Runtime Invariants, specialized Unfolding mechanisms, and governed autonomous structural growth. Its central architectural thesis is that future AI reasoning may increasingly emerge from the cooperation of Folded Intelligence, explicit Structural Intelligence, and a reasoning runtime: LLM Unfolding ↔ Structural Localization, followed by reasoning, validation, structural growth, and future reasoning.",
   "creators": [
     {
       "name": "Tan, Sizhe"
     }
   ],
-  "version": "0.2.0",
-  "publication_date": "2026-08-20",
-  "license": "Apache-2.0",
+  "version": "1.0.0",
+  "publication_date": "2026-08-26",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
   "access_right": "open",
+  "license": "Apache-2.0",
+  "language": "eng",
   "keywords": [
+    "AI Reasoning",
     "Structural Intelligence",
-    "Structural Intelligence Compass",
-    "Artificial Intelligence",
-    "Hybrid Intelligence",
-    "Policy-Driven Structural Hybrid Intelligence",
-    "Structural Synthesis",
-    "Structural Evolution",
-    "Enumerative Structure",
-    "Computational Possibility Space",
-    "Differential Organization",
-    "Differential Tree",
+    "Large Language Models",
+    "LLM Reasoning",
+    "Structural Reasoning",
+    "Folding",
+    "Unfolding",
+    "Structural Localization",
+    "Localization",
+    "Living Reasoning",
+    "Reasoning Structure",
+    "Structural Growth",
     "Calling Graph",
-    "Calling-Path Folding",
-    "Grounded Structural IR",
-    "Local Learned Intelligence",
+    "TaskGraph",
+    "Action Calling Graph",
+    "Gap Bridging",
+    "Forward Extension",
     "Per-Node Intelligence",
-    "Intelligence Space",
-    "Policy Surface",
-    "Policy Optimization",
-    "Brain Unit AI",
-    "Two-Way CCC",
-    "Function Tunnel",
-    "Runtime Intelligence",
-    "Runtime Switching",
-    "PDOS",
-    "PDOR",
-    "Structural Provenance",
-    "Operator Economy"
+    "CCC",
+    "Runtime Invariant",
+    "Structural Runtime",
+    "Autonomous Structural Intelligence",
+    "Collective Learning"
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/sizhet/Structural-Intelligence-Compass",
+      "identifier": "https://github.com/sizhet/Structural-Theory-of-AI-Reasoning",
       "relation": "isSupplementTo",
       "scheme": "url"
     }
   ],
-  "notes": "Version 0.2.0 is a Post-Release Structural Delta. It does not replace or retroactively rewrite the original v0.1.0 12-Point Compass. Instead, it preserves the released Compass as a historical baseline and appends six Additional Thoughts documenting newly visible structural relationships, missing computational layers, technology convergence, Policy Surfaces, Per-Node Intelligence Spaces, and the emerging synthesis direction of Point 12. Point 12 remains intentionally open pending further structural analysis, implementation, and validation."
+  "notes": "The repository presents the STAR (Structural Theory of AI Reasoning) series and its accompanying figure set. The central conceptual progression is: Reasoning Answer → Reasoning Structure → LLM Folding/Unfolding ↔ Structural Intelligence Localization → Gap Bridging and Forward Extension → Validation → Structural Growth → Living Reasoning. The work treats Folding/Unfolding as a structural interpretation of LLM intelligence and reasoning rather than as a claim that current Transformer architectures explicitly implement a literal inverse folding operation. Likewise, proposed specialized Unfolding engines and dual Folding/Unfolding architectures are presented as future research directions."
 }
+
