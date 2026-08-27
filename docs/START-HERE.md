@@ -8,7 +8,7 @@
 
 ---
 
-# 1. Start with One Question
+## 1. Start with One Question
 
 Modern AI has demonstrated increasingly powerful reasoning.
 
@@ -70,7 +70,7 @@ This is the starting point of the repository.
 
 ---
 
-# 2. The First Distinction: Answer vs. Reasoning Structure
+## 2. The First Distinction: Answer vs. Reasoning Structure
 
 Start with:
 
@@ -116,11 +116,11 @@ unless the useful reasoning result is extracted, validated, and preserved.
 
 ---
 
-# 3. The Four Questions of AI Reasoning
+## 3. The Four Questions of AI Reasoning
 
 The entire repository can be entered through four questions.
 
-## Question 1 — Where?
+### Question 1 — Where?
 
 > Where should reasoning occur?
 
@@ -134,7 +134,7 @@ Localization
 
 ---
 
-## Question 2 — What?
+### Question 2 — What?
 
 > What intelligence should become operational there?
 
@@ -148,7 +148,7 @@ Unfolding
 
 ---
 
-## Question 3 — What Remains?
+### Question 3 — What Remains?
 
 > Which reasoning results should become part of future intelligence?
 
@@ -164,7 +164,7 @@ Structural\ Preservation
 
 ---
 
-## Question 4 — What Next?
+### Question 4 — What Next?
 
 > What should trigger the next reasoning cycle?
 
@@ -210,11 +210,11 @@ Keep these four questions in mind while reading everything else.
 
 ---
 
-# 4. Two Reasoning Directions
+## 4. Two Reasoning Directions
 
 The central theory begins from two different but complementary reasoning directions.
 
-## LLM Direction
+### LLM Direction
 
 Large Language Models contain enormous amounts of intelligence in distributed, compressed form.
 
@@ -250,7 +250,7 @@ Outside
 
 ---
 
-## Structural Intelligence Direction
+### Structural Intelligence Direction
 
 Structural Intelligence begins from explicit structures such as:
 
@@ -289,7 +289,7 @@ Inside
 
 ---
 
-# 5. The Central Handshake
+## 5. The Central Handshake
 
 Now look at:
 
@@ -339,7 +339,7 @@ It means that they can approach the same operational reasoning region from oppos
 
 This is the central handshake of the STAR theory.
 
-6. Do Not Reduce LLM Reasoning to Winner-Takes-All
+## 6. Do Not Reduce LLM Reasoning to Winner-Takes-All
 
 Before going further, inspect:
 
@@ -351,16 +351,16 @@ But LLM reasoning is richer than this.
 
 LLMs can participate in:
 
-semantic transformation;
-abstraction;
-hypothesis generation;
-analogy;
-multi-step dependency construction;
-planning;
-correction;
-synthesis;
-Gap Bridging;
-Forward Extension.
+- semantic transformation;
+- abstraction;
+- hypothesis generation;
+- analogy;
+- multi-step dependency construction;
+- planning;
+- correction;
+- synthesis;
+- Gap Bridging;
+- Forward Extension.
 
 Therefore:
 
@@ -370,7 +370,7 @@ Per-Node selection is one reasoning mechanism.
 
 It is not a complete explanation of LLM reasoning.
 
-7. The Folding–Unfolding Interpretation
+## 7. The Folding–Unfolding Interpretation
 
 Now inspect:
 
@@ -390,7 +390,7 @@ This is a structural interpretation of LLM reasoning.
 
 It is not a claim that the model literally stores explicit hidden reasoning graphs.
 
-8. Why Structural Intelligence Matters
+## 8. Why Structural Intelligence Matters
 
 If LLMs already reason, why introduce Structural Intelligence?
 
@@ -398,77 +398,81 @@ Because reasoning requires more than generating intelligent local transformation
 
 Large systems also need to determine:
 
-where reasoning should happen;
-what dependencies already exist;
-what is missing;
-what has already been solved;
-what should be reused;
-what action should follow;
-what should be validated;
-what should persist;
-what should trigger the next task.
+- where reasoning should happen;
+- what dependencies already exist;
+- what is missing;
+- what has already been solved;
+- what should be reused;
+- what action should follow;
+- what should be validated;
+- what should persist;
+- what should trigger the next task.
 
 These are structural problems.
 
 Structural Intelligence makes many of these objects explicit.
 
-9. The Structural Reasoning Stack
+## 9. The Structural Reasoning Stack
 
 Inspect:
 
 A simplified reasoning stack is:
 
-Goal / Question / Event
-          |
-          v
-      LOCALIZATION
-          |
-          v
-       UNFOLDING
-          |
-          v
- PER-NODE INTELLIGENCE
-          |
-          v
- STRUCTURAL TRAVERSAL
-          |
-          v
- GAP / EXTENSION
-          |
-          v
-      TASKGRAPH
-          |
-          v
-       ACTIONCG
-          |
-          v
-        ACTION
-          |
-          v
-      VALIDATION
-          |
-          v
- STRUCTURAL GROWTH
+    Goal / Question / Event
+              |
+              v
+          LOCALIZATION
+              |
+              v
+           UNFOLDING
+              |
+              v
+     PER-NODE INTELLIGENCE
+              |
+              v
+     STRUCTURAL TRAVERSAL
+              |
+              v
+     GAP / EXTENSION
+              |
+              v
+          TASKGRAPH
+              |
+              v
+           ACTIONCG
+              |
+              v
+            ACTION
+              |
+              v
+          VALIDATION
+              |
+              v
+     STRUCTURAL GROWTH
 
 This is not one algorithm.
 
 It is a division of reasoning labor.
 
-10. Per-Node Intelligence
+## 10. Per-Node Intelligence
 
 Once a reasoning region has been localized, different nodes may use different intelligence mechanisms.
 
 For example:
 
-Branching and Scoring
+### Branching and Scoring
 $$ Candidates \rightarrow Score \rightarrow Selection $$
-Rules Engine
+
+### Rules Engine
 $$ Conditions \rightarrow Boolean\ Algebra \rightarrow Decision $$
-CCC
+
+### CCC
 $$ Condition + Context \rightarrow Computation $$
-LLM
+
+### LLM
 $$ Context \rightarrow Semantic\ Reasoning \rightarrow Candidate $$
-Solver
+
+### Solver
 $$ FormalProblem \rightarrow Algorithm \rightarrow Solution $$
 
 Thus:
@@ -482,7 +486,8 @@ $$ LLM\ Everywhere $$
 It can be:
 
 $$ \boxed{ Best\ Reasoner = f(Node,Context,Goal,Policy) } $$
-11. Trees and Graphs Have Different Jobs
+
+## 11. Trees and Graphs Have Different Jobs
 
 A useful simplification is:
 
@@ -494,15 +499,15 @@ $$ \boxed{ Graph \rightarrow Relation + Traversal + Gap + Extension } $$
 
 A Differential Tree or Classification Tree asks:
 
-Which region?
+> Which region?
 
 A Calling Graph asks:
 
-How are the relevant objects connected?
+> How are the relevant objects connected?
 
 This is an important structural division of labor.
 
-12. Calling Graph as a Reasoning Surface
+## 12. Calling Graph as a Reasoning Surface
 
 Suppose a graph contains:
 
@@ -529,7 +534,8 @@ Bridge Gap \(G_i\) at this structural location.
 Thus reasoning becomes:
 
 $$ \boxed{ Addressable } $$
-13. Gap Bridging
+
+## 13. Gap Bridging
 
 Gap Bridging is one of the central structural reasoning operations.
 
@@ -549,7 +555,7 @@ $$ \boxed{ Gap \rightarrow Bridge \rightarrow Growth } $$
 
 This transforms reasoning into structural extension.
 
-14. Forward Extension
+## 14. Forward Extension
 
 Not all reasoning is repair.
 
@@ -565,9 +571,10 @@ $$ \boxed{ Forward\ Extension } $$
 
 Thus:
 
-Gap Bridging
+### Gap Bridging
 $$ Missing \rightarrow Completion $$
-Forward Extension
+
+### Forward Extension
 $$ Frontier \rightarrow Novel\ Structure $$
 
 Together:
@@ -576,7 +583,7 @@ $$ \boxed{ Reasoning = Bridge + Extend } $$
 
 at the structural-growth level.
 
-15. TaskGraph and Action Calling Graph
+## 15. TaskGraph and Action Calling Graph
 
 Reasoning eventually needs to connect:
 
@@ -614,7 +621,8 @@ forms a major reasoning–execution duality.
              |
              v
            ACTION
-16. Core-Preserved Coding and Reasoning
+           
+## 16. Core-Preserved Coding and Reasoning
 
 Suppose the Action Calling Graph reaches:
 
@@ -644,7 +652,7 @@ $$ \boxed{ Core\text{-}Preserved\ Coding \leftrightarrow Core\text{-}Preserved\ 
 
 become dual growth methods.
 
-17. Reasoning Can Produce Structural Delta
+## 17. Reasoning Can Produce Structural Delta
 
 The result of reasoning need not be only:
 
@@ -656,16 +664,16 @@ $$ \Delta S $$
 
 Examples include:
 
-new node;
-new edge;
-new classification;
-new rule;
-new CCC;
-new task;
-new ActionCG branch;
-new bridge;
-new Runtime Invariant;
-new reusable reasoning path.
+- new node;
+- new edge;
+- new classification;
+- new rule;
+- new CCC;
+- new task;
+- new ActionCG branch;
+- new bridge;
+- new Runtime Invariant;
+- new reusable reasoning path.
 
 Thus:
 
@@ -673,7 +681,7 @@ $$ \boxed{ ReasoningOutput = Answer + CandidateStructuralDelta } $$
 
 This is the transition from answer-centric reasoning to cumulative reasoning.
 
-18. But Generated Structure Is Not Knowledge Yet
+## 18. But Generated Structure Is Not Knowledge Yet
 
 A critical boundary is:
 
@@ -681,22 +689,22 @@ $$ \boxed{ Generated\Delta S \neq Validated\Delta S } $$
 
 The lifecycle should be:
 
-Generate
-   |
-   v
-Extract
-   |
-   v
-Compare
-   |
-   v
-Validate
-   |
-   v
-Promote
-   |
-   v
-Preserve
+    Generate
+       |
+       v
+    Extract
+       |
+       v
+    Compare
+       |
+       v
+    Validate
+       |
+       v
+    Promote
+       |
+       v
+    Preserve
 
 Only then should:
 
@@ -708,7 +716,7 @@ $$ S_{t+1} $$
 
 This prevents speculative model output from automatically becoming persistent intelligence.
 
-19. The Living Reasoning Loop
+## 19. The Living Reasoning Loop
 
 Now inspect:
 
@@ -741,7 +749,8 @@ The previous reasoning episode changes the substrate of future reasoning.
 This is the:
 
 $$ \boxed{ Living\ Reasoning\ Loop } $$
-20. "Living" Does Not Mean Endless Thinking
+
+## 20. "Living" Does Not Mean Endless Thinking
 
 Living Reasoning does not mean:
 
@@ -749,7 +758,7 @@ $$ ReasonForever() $$
 
 It means:
 
-Validated reasoning can modify persistent intelligence, and the modified intelligence can participate in or initiate future reasoning.
+> **Validated reasoning can modify persistent intelligence, and the modified intelligence can participate in or initiate future reasoning.**
 
 Thus:
 
@@ -759,7 +768,7 @@ A living reasoning system may correctly decide to stop.
 
 Dormancy can itself be intelligent.
 
-21. From Prompt-Driven Reasoning to Structural Triggers
+## 21. From Prompt-Driven Reasoning to Structural Triggers
 
 Ordinary conversational reasoning begins with:
 
@@ -783,7 +792,7 @@ $$ \boxed{ Gap \rightarrow Task \rightarrow Reasoning } $$
 
 The structure itself begins to generate reasoning work.
 
-22. From Gap-Driven to Opportunity-Driven
+## 22. From Gap-Driven to Opportunity-Driven
 
 A more advanced system can identify not only what is missing, but what could be valuable next.
 
@@ -801,22 +810,24 @@ $$ \boxed{ Reactive \rightarrow Self\text{-}Correcting \rightarrow Self\text{-}E
 
 This provides a structural pathway toward increasing autonomy.
 
-23. The Critical Autonomy Question
+## 23. The Critical Autonomy Question
 
 A useful way to distinguish reasoning architectures is to ask:
 
 Who or what generates the next reasoning task?
 
-Prompt-Driven AI
+### Prompt-Driven AI
 $$ Human \rightarrow NextTask $$
-Gap-Driven AI
+
+### Gap-Driven AI
 $$ StructuralGap \rightarrow NextTask $$
-Opportunity-Driven AI
+
+### Opportunity-Driven AI
 $$ StructuralOpportunity \rightarrow NextTask $$
 
 This question may be more architecturally useful than asking only how many reasoning steps a model can generate.
 
-24. Future Reasoning Architecture
+## 24. Future Reasoning Architecture
 
 Finally inspect:
 
@@ -883,28 +894,32 @@ $$ Input \rightarrow Model \rightarrow Output $$
 It is:
 
 $$ \boxed{ Structure \rightarrow Reason \rightarrow Action \rightarrow Evidence \rightarrow Structure } $$
-25. The LLM–SI Map
+
+## 25. The LLM–SI Map
 
 Keep this table as the conceptual map for the entire repository.
 
-Dimension	LLM-Centered Reasoning	Structural Intelligence
-Representation	Folded / distributed	Explicit / structural
-Characteristic operation	Unfolding	Localization + traversal
-Localization	Mostly implicit / soft	Explicit / addressable
-Reasoning unit	Token / latent state / generated step	Node / CCC / tree / graph / task
-Branching	Dynamically generated	Can be explicit and persistent
-Relations	Often latent	Explicit dependencies
-Gap	Usually implicit	First-class structural object
-Gap Bridging	Generative	Addressed + generative + validated
-Forward Extension	Generative exploration	Structural frontier extension
-Per-Node intelligence	Primarily shared model	Heterogeneous mechanisms
-Task organization	Usually dynamic	Persistent TaskGraph
-Action organization	Tool / agent orchestration	Action Calling Graph
-Validation	Self / tools / external	Explicit runtime layer
-Persistence	Context / memory / retraining	Structural promotion
-Evolution	Model / memory updates	Explicit structural growth
-Autonomous trigger	Prompt / agent loop	Gap / opportunity / event
-Long-term direction	Better folded reasoning	Living structural reasoning
+|Reasoning Dimension	|LLM-Centered Reasoning	|Structural Intelligence |
+|---|---|---|
+|Primary representation	|Folded / distributed	|Explicit / structural
+|Characteristic reasoning operation	|Unfolding	|Localization + traversal
+|Localization	|Mostly implicit / soft	|Explicit / addressable
+|Reasoning unit	|Token / latent state / generated step	|Node / CCC / tree / graph / task
+|Branching	|Dynamically generated	|Can be explicit and persistent
+|Relations	|Often latent	|Explicit edges / dependencies
+|Gap representation	|Usually implicit	|First-class structural object
+|Gap Bridging	|Generative	|Addressed + generative + validated
+|Forward Extension	|Generative exploration	|Structural frontier extension
+|Per-Node intelligence	|Primarily shared model mechanism	|Heterogeneous mechanisms
+|Task organization	|Usually dynamically generated	|Persistent TaskGraph
+|Action organization	|Tools / agents	|Action Calling Graph
+|Validation	|Self / tool / external	|Explicit runtime layer
+|Persistence	|Context / memory / retraining	|Structural promotion
+|Evolution	|Primarily model or memory updates	|Explicit structural growth
+|Explainability	|Behavioral / textual	|Structural + runtime trace
+|Governance	|External policies / constraints	|Policy + CCC + RI
+|Autonomous trigger	|Prompt / agent loop	|Gap / opportunity / structural event
+|Long-term tendency	|Better folded reasoning	|Living structural reasoning |
 
 Do not read this table as:
 
@@ -917,18 +932,20 @@ $$ \boxed{ Complementary\ Reasoning\ Functions } $$
 whose central handshake is:
 
 $$ \boxed{ Unfolding \leftrightarrow Localization } $$
-26. The 10-Minute Reading Route
+
+## 26. The 10-Minute Reading Route
 
 If you have only 10–15 minutes, read four documents.
 
-Step 1
-STAR-001 — What Is AI Reasoning?
+### Step 1
+#### STAR-001 — What Is AI Reasoning?
 
 Read this first to understand:
 
 $$ \boxed{ Reasoning \neq Answer\ Generation\ Only } $$
-Step 2
-STAR-005 — LLM Folding and Unfolding
+
+### Step 2
+#### STAR-005 — LLM Folding and Unfolding
 
 Read this to understand:
 
@@ -940,16 +957,17 @@ $$ \boxed{ Reasoning = Selective\ Unfolding } $$
 
 as a structural interpretation.
 
-Step 3
-STAR-006 — Unfolding Meets Localization
+### Step 3
+#### STAR-006 — Unfolding Meets Localization
 
 This is the conceptual center of the repository.
 
 It develops:
 
 $$ \boxed{ LLM\ Unfolding \leftrightarrow SI\ Localization } $$
-Step 4
-STAR-007 — The Living Reasoning Loop
+
+### Step 4
+#### STAR-007 — The Living Reasoning Loop
 
 This explains the transition:
 
@@ -958,24 +976,25 @@ $$ Reasoning \rightarrow StructuralGrowth \rightarrow FutureReasoning $$
 and:
 
 $$ Prompt \rightarrow Gap \rightarrow Opportunity $$
-27. The 30-Minute Reading Route
+
+## 27. The 30-Minute Reading Route
 
 After the four core papers, add:
 
-STAR-003 — How Structural Intelligence Reasons
+### STAR-003 — How Structural Intelligence Reasons
 
 for:
 
-Per-Node Intelligence;
-trees;
-Calling Graphs;
-Gap Bridging;
-TaskGraphs;
-ActionCG.
+- Per-Node Intelligence;
+- trees;
+- Calling Graphs;
+- Gap Bridging;
+- TaskGraphs;
+- ActionCG.
 
 Then read:
 
-STAR-004 — How Can an LLM Reason?
+### STAR-004 — How Can an LLM Reason?
 
 for the argument that:
 
@@ -983,96 +1002,98 @@ $$ \boxed{ LLM\ Reasoning > Winner\text{-}Takes\text{-}All } $$
 
 Finally read:
 
-STAR-008 — Future AI Reasoning Architectures
+### STAR-008 — Future AI Reasoning Architectures
 
 for the architectural implications:
 
 $$ \boxed{ Monolithic\ Model \rightarrow Reasoning\ Division\ of\ Labor \rightarrow Structural\ Runtime \rightarrow Living\ AI } $$
-28. Full Reading Order
+
+## 28. Full Reading Order
 
 For a complete reading:
 
-STAR-001-WHAT-IS-AI-REASONING.md
-STAR-002-FROM-ANSWERS-TO-STRUCTURAL-GROWTH.md
-STAR-003-HOW-STRUCTURAL-INTELLIGENCE-REASONS.md
-STAR-004-HOW-CAN-AN-LLM-REASON.md
-STAR-005-LLM-FOLDING-AND-UNFOLDING.md
-STAR-006-UNFOLDING-MEETS-LOCALIZATION.md
-STAR-007-THE-LIVING-REASONING-LOOP.md
-STAR-008-FUTURE-AI-REASONING-ARCHITECTURES.md
+1. **STAR-001-WHAT-IS-AI-REASONING.md**
+2. **STAR-002-FROM-ANSWERS-TO-STRUCTURAL-GROWTH.md**
+3. **STAR-003-HOW-STRUCTURAL-INTELLIGENCE-REASONS.md**
+4. **STAR-004-HOW-CAN-AN-LLM-REASON.md**
+5. **STAR-005-LLM-FOLDING-AND-UNFOLDING.md**
+6. **STAR-006-UNFOLDING-MEETS-LOCALIZATION.md**
+7. **STAR-007-THE-LIVING-REASONING-LOOP.md**
+8. **STAR-008-FUTURE-AI-REASONING-ARCHITECTURES.md**
 
 The sequence follows:
 
 $$ \boxed{ Definition \rightarrow Growth \rightarrow SI \rightarrow LLM \rightarrow Folding \rightarrow Handshake \rightarrow Living \rightarrow Future } $$
-29. Visual Reading Route
+
+## 29. Visual Reading Route
 
 The figures provide an even faster route.
 
-Fig-001
+### Fig-001
 
-Answer vs Structural Growth
-
-Main question:
-
-What remains after reasoning?
-
-Fig-002
-
-Structural Reasoning Stack
+#### Answer vs Structural Growth
 
 Main question:
 
-What structural layers participate in reasoning?
+> What remains after reasoning?
 
-Fig-003
+### Fig-002
 
-LLM Reasoning Beyond WTA
-
-Main question:
-
-Why is LLM reasoning richer than local candidate selection?
-
-Fig-004
-
-LLM Folding–Unfolding
+#### Structural Reasoning Stack
 
 Main question:
 
-How can learned intelligence become operational reasoning?
+> What structural layers participate in reasoning?
 
-Fig-005
+### Fig-003
 
-Unfolding Meets Localization
+#### LLM Reasoning Beyond WTA
+
+Main question:
+
+> Why is LLM reasoning richer than local candidate selection?
+
+### Fig-004
+
+#### LLM Folding–Unfolding
+
+Main question:
+
+> How can learned intelligence become operational reasoning?
+
+### Fig-005
+
+#### Unfolding Meets Localization
 
 Main question:
 
 Where do LLM reasoning and Structural Intelligence meet?
 
-Fig-006
+### Fig-006
 
-Localization–Unfolding Handshake
-
-Main question:
-
-How can the two reasoning paradigms divide labor?
-
-Fig-007
-
-Living Reasoning Loop
+#### Localization–Unfolding Handshake
 
 Main question:
 
-How can reasoning improve the substrate of future reasoning?
+> How can the two reasoning paradigms divide labor?
 
-Fig-008
+### Fig-007
 
-Future Reasoning Architecture
+#### Living Reasoning Loop
 
 Main question:
 
-What could the next generation of integrated reasoning systems look like?
+> How can reasoning improve the substrate of future reasoning?
 
-30. Eight Figures in One Line
+### Fig-008
+
+#### Future Reasoning Architecture
+
+Main question:
+
+> What could the next generation of integrated reasoning systems look like?
+
+## 30. Eight Figures in One Line
 
 The complete visual progression is:
 
@@ -1081,23 +1102,25 @@ $$ \boxed{ Answer \rightarrow Structure \rightarrow LLM\ Reasoning \rightarrow U
 Or even more compactly:
 
 $$ \boxed{ Answer \rightarrow Structure \rightarrow Unfolding \leftrightarrow Localization \rightarrow Growth \rightarrow Living\ AI } $$
-31. What Is Established and What Is Hypothetical?
+
+## 31. What Is Established and What Is Hypothetical?
 
 The repository intentionally connects current AI observations with forward-looking architectural hypotheses.
 
 These should not be confused.
 
-Current Empirical Starting Points
+### Current Empirical Starting Points
 
 Modern LLMs demonstrate:
 
-broad semantic capability;
-multi-step reasoning behavior;
-abstraction;
-planning-like behavior;
-tool-mediated reasoning;
-substantial generalization.
-Structural Interpretation
+- broad semantic capability;
+- multi-step reasoning behavior;
+- abstraction;
+- planning-like behavior;
+- tool-mediated reasoning;
+- substantial generalization.
+
+### Structural Interpretation
 
 This repository proposes:
 
@@ -1109,7 +1132,7 @@ $$ \boxed{ Reasoning\ as\ selective\ Unfolding } $$
 
 as conceptual structural interpretations.
 
-Architectural Proposal
+### Architectural Proposal
 
 The repository further proposes:
 
@@ -1117,7 +1140,7 @@ $$ \boxed{ Unfolding \leftrightarrow Localization } $$
 
 as a useful hybrid architecture principle.
 
-Future Hypothesis
+### Future Hypothesis
 
 More speculative directions include:
 
@@ -1129,26 +1152,29 @@ $$ \boxed{ Folding\ Transformer \leftrightarrow Unfolding\ Transformer } $$
 
 These are research hypotheses, not claims about established model architecture.
 
-32. The Future Division of Labor
+## 32. The Future Division of Labor
 
 A mature reasoning architecture may increasingly divide responsibilities.
 
-Structural Intelligence
+### Structural Intelligence
 
 Answers:
 
 $$ \boxed{ Where? } $$
-LLM / Unfolding Engine
+
+### LLM / Unfolding Engine
 
 Answers:
 
 $$ \boxed{ What? } $$
-Structural Runtime
+
+### Structural Runtime
 
 Answers:
 
 $$ \boxed{ What\ Remains? } $$
-Gap / Opportunity Engine
+
+### Gap / Opportunity Engine
 
 Answers:
 
@@ -1160,35 +1186,35 @@ $$ \boxed{ Where \rightarrow What \rightarrow What\ Remains \rightarrow What\ Ne
 
 This is perhaps the shortest architecture-level summary of the entire repository.
 
-33. Why This Matters for Future AI
+## 33. Why This Matters for Future AI
 
 A model-centered view asks:
 
-How capable is the model?
+> How capable is the model?
 
 A structural-runtime view adds:
 
-Where should that capability be used?
+> Where should that capability be used?
 
-Which capability should be used?
+> Which capability should be used?
 
-What structure does the reasoning operate on?
+> What structure does the reasoning operate on?
 
-What new structure did reasoning produce?
+> What new structure did reasoning produce?
 
-Should that structure be preserved?
+> Should that structure be preserved?
 
-What task follows from it?
+>What task follows from it?
 
 These questions become increasingly important as AI systems become:
 
-persistent;
-tool-using;
-long-running;
-autonomous;
-specialized;
-multi-model;
-safety-critical.
+- persistent;
+- tool-using;
+- long-running;
+- autonomous;
+- specialized;
+- multi-model;
+- safety-critical.
 
 Thus:
 
@@ -1196,7 +1222,7 @@ $$ \boxed{ Model\ Intelligence \rightarrow System\ Intelligence } $$
 
 is a major architectural transition.
 
-34. Why This Matters for AI Efficiency
+## 34. Why This Matters for AI Efficiency
 
 Without persistent structure:
 
@@ -1214,30 +1240,30 @@ $$ \boxed{ Structural\ Reuse \rightarrow Reduced\ Repeated\ Reasoning } $$
 
 Reasoning becomes capital rather than only expenditure.
 
-35. Why This Matters for AI Explainability
+## 35. Why This Matters for AI Explainability
 
 An explicit structural runtime can record:
 
-Why reason?
-    Gap G17
-
-Where?
-    Node N42
-
-Which reasoner?
-    LLM M3
-
-What was generated?
-    Delta D8
-
-Why accepted?
-    Validation V2
-
-Invariant status?
-    PASS
-
-What changed?
-    S(t) -> S(t+1)
+    Why reason?
+        Gap G17
+    
+    Where?
+        Node N42
+    
+    Which reasoner?
+        LLM M3
+    
+    What was generated?
+        Delta D8
+    
+    Why accepted?
+        Validation V2
+    
+    Invariant status?
+        PASS
+    
+    What changed?
+        S(t) -> S(t+1)
 
 Thus:
 
@@ -1245,11 +1271,11 @@ $$ \boxed{ Reasoning \rightarrow Structural\ Trace } $$
 
 provides a different form of explainability from textual self-explanation alone.
 
-36. Why This Matters for AI Governance
+## 36. Why This Matters for AI Governance
 
 Persistent reasoning growth creates a serious question:
 
-What may the AI change?
+> What may the AI change?
 
 The repository therefore treats:
 
@@ -1267,7 +1293,7 @@ $$ Unbounded\ Autonomy $$
 
 is the intended direction.
 
-37. Why This Matters for ASI
+## 37. Why This Matters for ASI
 
 Within this framework, Autonomous Structural Intelligence is not defined simply as:
 
@@ -1287,7 +1313,7 @@ $$ \boxed{ Observe \rightarrow Gap / Opportunity \rightarrow Reason \rightarrow 
 
 This repository treats that closure as an architectural research direction, not as a claim that complete ASI already exists.
 
-38. Why This Matters for Collective Learning
+## 38. Why This Matters for Collective Learning
 
 The same reasoning loop can extend beyond one AI.
 
@@ -1319,7 +1345,7 @@ $$ \boxed{ Collective\ Learning = Living\ Reasoning\ at\ Social\ Scale } $$
 
 becomes a possible long-term direction.
 
-39. What Not to Misread
+## 39. What Not to Misread
 
 This repository does not argue:
 
@@ -1335,13 +1361,13 @@ LLMs reveal how powerful folded intelligence can be.
 
 Structural Intelligence reveals how explicit structure can improve:
 
-localization;
-coordination;
-persistence;
-validation;
-reuse;
-governance;
-growth.
+- localization;
+- coordination;
+- persistence;
+- validation;
+- reuse;
+- governance;
+- growth.
 
 Therefore:
 
@@ -1352,40 +1378,48 @@ is the main direction.
 The key word is:
 
 $$ \boxed{ Complementarity } $$
-40. Five Ideas to Remember
+
+## 40. Five Ideas to Remember
 
 If you remember only five ideas from this repository, remember these.
 
-1. Reasoning Is More Than Answer Generation
+### 1. Reasoning Is More Than Answer Generation
 $$ \boxed{ Reasoning \rightarrow Answer + Structural\ Delta } $$
-2. LLMs Can Be Viewed as Folding Structures
+
+### 2. LLMs Can Be Viewed as Folding Structures
 $$ \boxed{ Folded\ Intelligence \rightarrow Unfolding } $$
-3. Structural Intelligence Provides Localization
+
+### 3. Structural Intelligence Provides Localization
 $$ \boxed{ Global\ Structure \rightarrow Local\ Reasoning\ Region } $$
-4. Unfolding and Localization Can Meet
+
+### 4. Unfolding and Localization Can Meet
 $$ \boxed{ LLM\ Unfolding \leftrightarrow SI\ Localization } $$
-5. Reasoning Can Become Living
+
+### 5. Reasoning Can Become Living
 $$ \boxed{ Reason \rightarrow Grow \rightarrow Reason\ Again } $$
 
 These five ideas are the backbone of the repository.
 
-41. Three Equations to Remember
+## 41. Three Equations to Remember
 
 If you remember only three equations:
 
-Equation 1
+#### Equation 1
 $$ \boxed{ R_{LLM}^{Unfold} \approx R_{SI}^{Localized} } $$
-Equation 2
+
+#### Equation 2
 $$ \boxed{ S_t \rightarrow R_t \rightarrow \Delta S_t \rightarrow S_{t+1} } $$
-Equation 3
+
+#### Equation 3
 $$ \boxed{ Prompt \rightarrow Gap \rightarrow Opportunity } $$
 
 Together they describe:
 
-the LLM–SI handshake;
-cumulative reasoning;
-increasing reasoning autonomy.
-42. One Canonical Pipeline
+- the LLM–SI handshake;
+- cumulative reasoning;
+- increasing reasoning autonomy.
+
+## 42. One Canonical Pipeline
 
 The full repository can be compressed into:
 
@@ -1393,45 +1427,46 @@ $$ \boxed{ FOLD \rightarrow LOCALIZE \rightarrow UNFOLD \rightarrow REASON \righ
 
 Each term has a distinct role.
 
-FOLD
+### FOLD
 
 Compress intelligence into reusable representations.
 
-LOCALIZE
+### LOCALIZE
 
 Determine where reasoning belongs.
 
-UNFOLD
+### UNFOLD
 
 Activate relevant folded intelligence.
 
-REASON
+### REASON
 
 Perform local and structural computation.
 
-BRIDGE
+### BRIDGE
 
 Resolve gaps or extend structural frontiers.
 
-ACT
+### ACT
 
 Change the external or computational environment.
 
-VALIDATE
+### VALIDATE
 
 Test generated results.
 
-GROW
+### GROW
 
 Preserve useful validated structure.
 
-REFOLD
+### REFOLD
 
 Compress mature structural knowledge into higher-level reusable intelligence.
 
 Then the cycle begins again.
 
-43. One Canonical Architecture
+## 43. One Canonical Architecture
+
              FOLDED INTELLIGENCE
                      |
                      v
@@ -1475,81 +1510,89 @@ $$ \boxed{ Local\ Reasoning\ Region } $$
 The loop closes at:
 
 $$ \boxed{ Updated\ Structure } $$
-44. One-Sentence Theory
 
-AI reasoning is the process by which intelligence is localized, unfolded, structurally operated, validated, and potentially preserved as part of the starting structure for future reasoning.
+## 44. One-Sentence Theory
 
-45. One-Sentence Future Architecture
+> **AI reasoning is the process by which intelligence is localized, unfolded, structurally operated, validated, and potentially preserved as part of the starting structure for future reasoning.**
 
-Future AI reasoning may increasingly combine folded model intelligence with explicit Structural Localization, heterogeneous reasoning engines, structural runtimes, validation, and persistent growth.
+## 45. One-Sentence Future Architecture
 
-46. One-Sentence Living Reasoning Definition
+> **Future AI reasoning may increasingly combine folded model intelligence with explicit Structural Localization, heterogeneous reasoning engines, structural runtimes, validation, and persistent growth.**
 
-Reasoning becomes living when validated reasoning changes the structure from which future reasoning begins, and that evolving structure can help generate the next reasoning task.
+## 46. One-Sentence Living Reasoning Definition
 
-47. Repository Map
-Structural-Theory-of-AI-Reasoning/
-│
-├── README.md
-├── START-HERE.md
-│
-├── STAR-001-WHAT-IS-AI-REASONING.md
-├── STAR-002-FROM-ANSWERS-TO-STRUCTURAL-GROWTH.md
-├── STAR-003-HOW-STRUCTURAL-INTELLIGENCE-REASONS.md
-├── STAR-004-HOW-CAN-AN-LLM-REASON.md
-├── STAR-005-LLM-FOLDING-AND-UNFOLDING.md
-├── STAR-006-UNFOLDING-MEETS-LOCALIZATION.md
-├── STAR-007-THE-LIVING-REASONING-LOOP.md
-├── STAR-008-FUTURE-AI-REASONING-ARCHITECTURES.md
-│
-└── figures/
-    ├── Fig-001-Answer-vs-Structural-Growth.png
-    ├── Fig-002-Structural-Reasoning-Stack.png
-    ├── Fig-003-LLM-Reasoning-Beyond-WTA.png
-    ├── Fig-004-LLM-Folding-Unfolding.png
-    ├── Fig-005-Unfolding-Meets-Localization.png
-    ├── Fig-006-Localization-Unfolding-Handshake.png
-    ├── Fig-007-Living-Reasoning-Loop.png
-    └── Fig-008-Future-Reasoning-Architecture.png
-48. Where to Go Next
+> **Reasoning becomes living when validated reasoning changes the structure from which future reasoning begins, and that evolving structure can help generate the next reasoning task.**
+
+## 47. Repository Map
+
+    Structural-Theory-of-AI-Reasoning/
+    │
+    ├── README.md
+    ├── START-HERE.md
+    │
+    ├── STAR-001-WHAT-IS-AI-REASONING.md
+    ├── STAR-002-FROM-ANSWERS-TO-STRUCTURAL-GROWTH.md
+    ├── STAR-003-HOW-STRUCTURAL-INTELLIGENCE-REASONS.md
+    ├── STAR-004-HOW-CAN-AN-LLM-REASON.md
+    ├── STAR-005-LLM-FOLDING-AND-UNFOLDING.md
+    ├── STAR-006-UNFOLDING-MEETS-LOCALIZATION.md
+    ├── STAR-007-THE-LIVING-REASONING-LOOP.md
+    ├── STAR-008-FUTURE-AI-REASONING-ARCHITECTURES.md
+    │
+    └── figures/
+        ├── Fig-001-Answer-vs-Structural-Growth.png
+        ├── Fig-002-Structural-Reasoning-Stack.png
+        ├── Fig-003-LLM-Reasoning-Beyond-WTA.png
+        ├── Fig-004-LLM-Folding-Unfolding.png
+        ├── Fig-005-Unfolding-Meets-Localization.png
+        ├── Fig-006-Localization-Unfolding-Handshake.png
+        ├── Fig-007-Living-Reasoning-Loop.png
+        └── Fig-008-Future-Reasoning-Architecture.png
+
+## 48. Where to Go Next
 
 If your main interest is:
 
-LLM Reasoning
+### LLM Reasoning
 
 Read:
 
-STAR-004
-STAR-005
-STAR-006
-Structural Intelligence
+- STAR-004
+- STAR-005
+- STAR-006
+
+### Structural Intelligence
 
 Read:
 
-STAR-002
-STAR-003
-STAR-006
-AI Agents / Autonomous AI
+- STAR-002
+- STAR-003
+- STAR-006
+
+### AI Agents / Autonomous AI
 
 Read:
 
-STAR-003
-STAR-007
-STAR-008
-Future AI Architecture
+- STAR-003
+- STAR-007
+- STAR-008
+
+### Future AI Architecture
 
 Read:
 
-STAR-005
-STAR-006
-STAR-008
-ASI / Living Intelligence
+- STAR-005
+- STAR-006
+- STAR-008
+
+### ASI / Living Intelligence
 
 Read:
 
-STAR-007
-STAR-008
-AI Coding
+- STAR-007
+- STAR-008
+
+### AI Coding
 
 Focus on:
 
@@ -1557,7 +1600,7 @@ $$ CallingGraph \rightarrow ActionCG \rightarrow Core\text{-}Preserved\ Coding $
 
 inside STAR-003, STAR-007, and STAR-008.
 
-49. Final Map
+## 49. Final Map
 
 The repository begins with:
 
@@ -1606,63 +1649,64 @@ $$ \boxed{ Reasoning \rightarrow Structural\ Growth \rightarrow New\ Reasoning }
 That closed loop is:
 
 $$ \boxed{ Living\ Structural\ Reasoning } $$
-50. Start Here
+
+## 50. Start Here
 
 If you are opening this repository for the first time:
 
-First:
+### First:
 
 Look at:
 
-Fig-001 — Answer vs Structural Growth
+#### Fig-001 — Answer vs Structural Growth
 
 Then read:
 
-STAR-001 — What Is AI Reasoning?
+#### STAR-001 — What Is AI Reasoning?
 
-Second:
+### Second:
 
 Look at:
 
-Fig-004 — LLM Folding and Unfolding
+#### Fig-004 — LLM Folding and Unfolding
 
 Then read:
 
-STAR-005 — LLM Folding and Unfolding
+#### STAR-005 — LLM Folding and Unfolding
 
-Third:
+### Third:
 
 Look at:
 
-Fig-005 — Unfolding Meets Localization
+#### Fig-005 — Unfolding Meets Localization
 
 and:
 
-Fig-006 — Localization–Unfolding Handshake
+#### Fig-006 — Localization–Unfolding Handshake
 
 Then read:
 
-STAR-006 — Unfolding Meets Localization
+#### STAR-006 — Unfolding Meets Localization
 
-Fourth:
+### Fourth:
 
 Look at:
 
-Fig-007 — Living Reasoning Loop
+#### Fig-007 — Living Reasoning Loop
 
 Then read:
 
-STAR-007 — The Living Reasoning Loop
+#### STAR-007 — The Living Reasoning Loop
 
-Finally:
+### Finally:
 
 Look at:
 
-Fig-008 — Future Reasoning Architecture
+#### Fig-008 — Future Reasoning Architecture
 
 Then read:
 
-STAR-008 — Future AI Reasoning Architectures
+#### STAR-008 — Future AI Reasoning Architectures
 
 At that point, the full repository can be compressed into one line:
 
@@ -1670,9 +1714,9 @@ $$ \boxed{ \textbf{ Answer \rightarrow Structure \rightarrow Unfolding \leftrigh
 
 And into one final question:
 
-Can AI reasoning evolve from producing answers to building, validating, reusing, and extending the structural intelligence from which its next reasoning begins?
+> **Can AI reasoning evolve from producing answers to building, validating, reusing, and extending the structural intelligence from which its next reasoning begins?**
 
-That is the research question at the center of the Structural Theory of AI Reasoning.
+That is the research question at the center of the **Structural Theory of AI Reasoning**.
 
 
 
