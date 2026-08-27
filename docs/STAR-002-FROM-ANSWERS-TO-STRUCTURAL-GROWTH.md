@@ -77,6 +77,10 @@ This transition provides a structural bridge from question answering toward pers
 
 ---
 
+![Fig-002-Structural-Reasoning-Stack.png](./figures/Fig-002-Structural-Reasoning-Stack.png)
+
+---
+
 # 1. The Answer-Centered Model of Reasoning
 
 The simplest representation of reasoning is:

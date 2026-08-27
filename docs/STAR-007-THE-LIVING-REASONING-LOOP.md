@@ -143,6 +143,10 @@ This transforms AI reasoning from episodic answer generation into an evolving st
 
 ---
 
+![Fig-007-Living-Reasoning-Loop.png](./figures/Fig-007-Living-Reasoning-Loop.png)
+
+---
+
 # 1. The Conventional Reasoning Episode
 
 The most familiar AI reasoning pattern is:

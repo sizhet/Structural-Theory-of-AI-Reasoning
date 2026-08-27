@@ -9,6 +9,10 @@
 
 ---
 
+![Fig-006-Localization-Unfolding-Handshake.png](./figures/Fig-006-Localization-Unfolding-Handshake.png)
+
+---
+
 ## Abstract
 
 Large Language Model reasoning and Structural Intelligence reasoning approach the reasoning problem from two different directions.

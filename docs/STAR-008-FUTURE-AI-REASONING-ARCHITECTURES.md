@@ -107,6 +107,10 @@ Living\ Intelligence
 
 ---
 
+![Fig-008-Future-Reasoning-Architecture.png](./figures/Fig-008-Future-Reasoning-Architecture.png)
+
+---
+
 # 1. The Current Center of Gravity
 
 Contemporary AI reasoning is largely model-centered.

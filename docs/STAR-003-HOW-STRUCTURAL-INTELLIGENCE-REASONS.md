@@ -75,6 +75,10 @@ When these operations are placed inside a persistent feedback loop, reasoning be
 
 ---
 
+![Fig-003-LLM-Reasoning-Beyond-WTA.png](./figures/Fig-003-LLM-Reasoning-Beyond-WTA.png)
+
+---
+
 # 1. Reasoning as Structural Operation
 
 A conventional abstraction of reasoning is:

@@ -73,6 +73,10 @@ $$
 
 ---
 
+![Fig-004-LLM-Folding-Unfolding.png](./figures/Fig-004-LLM-Folding-Unfolding.png)
+
+---
+
 # 1. The Question Is No Longer Simply "Can LLMs Reason?"
 
 Early discussions of language models often framed the issue as a binary question:

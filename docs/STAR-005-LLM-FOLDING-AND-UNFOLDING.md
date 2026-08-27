@@ -9,6 +9,10 @@
 
 ---
 
+![Fig-005-Unfolding-Meets-Localization.png](./figures/Fig-005-Unfolding-Meets-Localization.png)
+
+---
+
 ## Abstract
 
 Large Language Models can be interpreted, at a useful structural level, as systems in which large amounts of linguistic, conceptual, relational, procedural, and task-relevant regularity are compressed into a learned parameterized representation.

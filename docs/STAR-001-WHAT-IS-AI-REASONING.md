@@ -56,6 +56,10 @@ The central thesis is:
 
 ---
 
+![Fig-001-Answer-vs-Structural-Growth.png](./figures/Fig-001-Answer-vs-Structural-Growth.png)
+
+---
+
 # 1. The Conventional View: Reasoning Produces an Answer
 
 A simple model of AI reasoning is:
