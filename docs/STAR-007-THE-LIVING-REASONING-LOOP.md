@@ -519,26 +519,24 @@ The preserved structure must become executable, navigable, localizable, callable
 
 The smallest useful form is:
 
-```text
-Reason
-   |
-   v
-Structural Delta
-   |
-   v
-Validate
-   |
-   v
-Preserve
-   |
-   v
-Updated Structure
-   |
-   v
-Future Reasoning
-   |
-   +------------>
-```
+    Reason
+       |
+       v
+    Structural Delta
+       |
+       v
+    Validate
+       |
+       v
+    Preserve
+       |
+       v
+    Updated Structure
+       |
+       v
+    Future Reasoning
+       |
+       +------------>
 
 Formally:
 
@@ -546,7 +544,7 @@ $$ \boxed{ R \rightarrow \Delta S \rightarrow V \rightarrow P \rightarrow S' \ri
 
 This is the minimal Living Reasoning Loop.
 
-11. The Full Living Reasoning Loop
+# 11. The Full Living Reasoning Loop
 
 A more complete architecture is:
 
@@ -587,7 +585,7 @@ $$ \boxed{ Observe \rightarrow Localize \rightarrow Unfold \rightarrow Reason \r
 
 followed by another observation cycle.
 
-12. Observation Closes the Reality Loop
+# 12. Observation Closes the Reality Loop
 
 Reasoning without external feedback may remain internally coherent but externally wrong.
 
@@ -607,7 +605,7 @@ $$ \boxed{ Action \rightarrow Evidence \rightarrow Reasoning } $$
 
 closes the loop with reality.
 
-13. Validation Closes the Knowledge Loop
+# 13. Validation Closes the Knowledge Loop
 
 Observation produces evidence.
 
@@ -625,7 +623,7 @@ $$ Accept $$ $$ Reject $$ $$ Revise $$ $$ Escalate $$
 
 Only accepted or appropriately revised structures should enter persistent intelligence.
 
-14. Two Closed Loops
+# 14. Two Closed Loops
 
 Living Reasoning therefore contains at least two loops.
 
@@ -640,7 +638,7 @@ $$ \boxed{ Reality\ Feedback + Structural\ Feedback } $$
 
 make the system substantially more powerful than answer-only reasoning.
 
-15. Prompt-Driven Reasoning
+# 15. Prompt-Driven Reasoning
 
 The simplest trigger is:
 
@@ -658,7 +656,7 @@ Then someone asks.
 
 This remains the dominant form of conversational AI interaction.
 
-16. The Limitation of Prompt-Driven Intelligence
+# 16. The Limitation of Prompt-Driven Intelligence
 
 A prompt-driven system does not necessarily ask:
 
@@ -680,7 +678,7 @@ $$ \boxed{ Prompt\ Dependency } $$
 
 as an architectural limitation.
 
-17. Structural Gaps Can Become Internal Prompts
+# 17. Structural Gaps Can Become Internal Prompts
 
 Structural Intelligence changes the trigger mechanism.
 
@@ -704,7 +702,7 @@ The system no longer requires a human to formulate every reasoning question.
 
 The structure itself generates the question.
 
-18. Gap-Driven Reasoning
+# 18. Gap-Driven Reasoning
 
 The canonical Gap-Driven loop is:
 
@@ -724,7 +722,7 @@ $$ \boxed{ Gap \rightarrow Localization \rightarrow Unfolding \rightarrow Bridge
 
 This is a major step beyond prompt-driven QA.
 
-19. A Gap Is an Internal Reasoning Trigger
+# 19. A Gap Is an Internal Reasoning Trigger
 
 A gap may represent:
 
@@ -752,7 +750,7 @@ $$ \boxed{ Structural\ Reasoning\ Trigger } $$
 
 This is one of the most important consequences of explicit structure.
 
-20. From External Prompt to Structural Prompt
+# 20. From External Prompt to Structural Prompt
 
 The transition can be represented as:
 
@@ -768,7 +766,7 @@ $$ \boxed{ Natural\text{-}Language\ Prompt \rightarrow Structural\ Prompt } $$
 
 A mature system may use both.
 
-21. Gap Prioritization
+# 21. Gap Prioritization
 
 A real system may detect many gaps:
 
@@ -797,7 +795,7 @@ $$ \boxed{ Gap\ Detection \rightarrow Gap\ Prioritization \rightarrow Reasoning 
 
 Autonomy requires selection, not merely detection.
 
-22. Gap Scheduling
+# 22. Gap Scheduling
 
 Prioritized gaps can become a reasoning queue:
 
@@ -813,7 +811,7 @@ $$ NextGap \rightarrow Localization \rightarrow Unfolding $$
 
 This converts structural incompleteness into an autonomous reasoning workload.
 
-23. Gap-Driven TaskGraph Growth
+# 23. Gap-Driven TaskGraph Growth
 
 A detected gap can generate a task:
 
@@ -829,7 +827,7 @@ $$ TG_t \rightarrow TG_{t+1} $$
 
 Reasoning is now creating the structure that organizes future reasoning.
 
-24. TaskGraph as a Living Reasoning Surface
+# 24. TaskGraph as a Living Reasoning Surface
 
 A TaskGraph should not be treated only as a static plan.
 
@@ -849,7 +847,7 @@ $$ \boxed{ TaskGraph_t \neq TaskGraph_{t+1} } $$
 
 The TaskGraph becomes a dynamic reasoning surface.
 
-25. Action Calling Graph as the Living Execution Surface
+# 25. Action Calling Graph as the Living Execution Surface
 
 Tasks require executable capability.
 
@@ -875,7 +873,7 @@ $$ A \rightarrow B \rightarrow C \rightarrow D $$
 
 The execution structure has grown.
 
-26. Dual Structural Growth
+# 26. Dual Structural Growth
 
 This gives two coupled growth processes.
 
@@ -892,7 +890,7 @@ Reasoning discovers what needs to be done.
 
 Execution discovers how it can be done.
 
-27. Core-Preserved Coding Becomes a Reasoning Mechanism
+# 27. Core-Preserved Coding Becomes a Reasoning Mechanism
 
 Suppose the Action Calling Graph requires a new executable capability.
 
@@ -916,7 +914,7 @@ $$ \boxed{ Coding\ Growth \rightarrow Reasoning\ Capability\ Growth } $$
 
 This is the deeper relationship between AI Coding and AI Reasoning.
 
-28. The Dual Methods
+# 28. The Dual Methods
 
 The two processes can be written:
 
@@ -931,7 +929,7 @@ $$ \boxed{ Core\text{-}Preserved\ Coding \leftrightarrow Core\text{-}Preserved\ 
 
 They are dual structural growth methods.
 
-29. Reasoning Can Grow Its Own Tools
+# 29. Reasoning Can Grow Its Own Tools
 
 This leads to an important possibility.
 
@@ -959,7 +957,7 @@ $$ \boxed{ Reasoning \rightarrow Tool\ Growth \rightarrow Better\ Reasoning } $$
 
 This is another Living Reasoning loop.
 
-30. Reasoning Can Grow Its Own Structural Vocabulary
+# 30. Reasoning Can Grow Its Own Structural Vocabulary
 
 The same applies to concepts.
 
@@ -983,7 +981,7 @@ $$ StructuralVocabulary_t \rightarrow StructuralVocabulary_{t+1} $$
 
 The system has improved not merely an answer, but the language of its future reasoning.
 
-31. Opportunity-Driven Reasoning
+# 31. Opportunity-Driven Reasoning
 
 Gap-Driven Reasoning is reactive.
 
@@ -1005,7 +1003,7 @@ $$ Opportunity \rightarrow ForwardExtension $$
 
 This is proactive structural reasoning.
 
-32. Gap and Opportunity Are Different
+# 32. Gap and Opportunity Are Different
 
 A gap implies:
 
@@ -1027,7 +1025,7 @@ $$ \boxed{ Opportunity = Possible\ Valuable\ Structure } $$
 
 The distinction matters for autonomous intelligence.
 
-33. Forward Extension
+# 33. Forward Extension
 
 Forward Extension asks:
 
@@ -1050,7 +1048,7 @@ $$ \boxed{ Forward\ Extension = Reasoning\ Beyond\ Repair } $$
 
 It creates new possibilities rather than merely closing gaps.
 
-34. The Three Trigger Regimes
+# 34. The Three Trigger Regimes
 
 AI reasoning can therefore be classified by its initiating condition.
 
@@ -1067,7 +1065,7 @@ $$ \boxed{ Prompt \rightarrow Gap \rightarrow Opportunity } $$
 
 as an important autonomy progression.
 
-35. From Reactive Intelligence to Developmental Intelligence
+# 35. From Reactive Intelligence to Developmental Intelligence
 
 Prompt-driven systems are primarily reactive.
 
@@ -1081,7 +1079,7 @@ $$ Reactive \rightarrow Self\text{-}Correcting \rightarrow Self\text{-}Extending
 
 This is a useful structural interpretation of increasing AI autonomy.
 
-36. Living Does Not Mean Uncontrolled
+# 36. Living Does Not Mean Uncontrolled
 
 A living reasoning system must not imply:
 
@@ -1104,7 +1102,7 @@ human approval.
 
 Growth and governance must coexist.
 
-37. Structural Invariants Protect the Core
+# 37. Structural Invariants Protect the Core
 
 Let:
 
@@ -1128,7 +1126,7 @@ becomes the basis of safe structural evolution.
 
 This is Core-Preserved Reasoning at runtime scale.
 
-38. Growth Is Not Accumulation
+# 38. Growth Is Not Accumulation
 
 A naive system may treat every successful result as something to preserve.
 
@@ -1150,32 +1148,32 @@ $$ \boxed{ Growth \neq Accumulation } $$
 
 Good structural growth requires selection.
 
-39. Structural Promotion
+# 39. Structural Promotion
 
 A candidate reasoning product may pass through:
 
-Generated
-   |
-   v
-Extracted
-   |
-   v
-Compared
-   |
-   v
-Validated
-   |
-   v
-Promoted
-   |
-   v
-Reusable
+    Generated
+       |
+       v
+    Extracted
+       |
+       v
+    Compared
+       |
+       v
+    Validated
+       |
+       v
+    Promoted
+       |
+       v
+    Reusable
 
 This creates a promotion boundary.
 
 Only sufficiently valuable structures become part of the persistent intelligence core.
 
-40. Structural Demotion and Decay
+# 40. Structural Demotion and Decay
 
 Living systems also need forgetting.
 
@@ -1202,7 +1200,8 @@ $$ Demotion $$ $$ Decay $$ $$ Replacement $$ $$ Archival $$
 Thus:
 
 $$ \boxed{ Living\ Structural\ Intelligence = Growth + Maintenance + Pruning } $$
-41. Structural Pruning
+
+# 41. Structural Pruning
 
 If:
 
@@ -1222,7 +1221,7 @@ $$ Archive(S_i) $$
 
 This prevents structural intelligence from becoming an uncontrolled graph of historical artifacts.
 
-42. Refolding
+# 42. Refolding
 
 As structural knowledge grows, explicit structures may become too detailed.
 
@@ -1247,7 +1246,7 @@ produce reusable higher-level objects.
 
 Thus the living loop includes both expansion and compression.
 
-43. Growth and Refolding
+# 43. Growth and Refolding
 
 The long-term cycle becomes:
 
@@ -1263,7 +1262,7 @@ $$ Structural\ Compression $$
 
 A mature intelligence system may need both continuously.
 
-44. Living Reasoning Is Multi-Time-Scale
+# 44. Living Reasoning Is Multi-Time-Scale
 
 Different loops may operate at different rates.
 
@@ -1282,7 +1281,7 @@ $$ \boxed{ Living\ Reasoning = Multi\text{-}Time\text{-}Scale\ Evolution } $$
 
 This helps prevent every transient event from immediately changing the permanent core.
 
-45. Structural Learning Without Parameter Change
+# 45. Structural Learning Without Parameter Change
 
 Suppose model parameters remain:
 
@@ -1304,7 +1303,7 @@ $$ \boxed{ System\ Learning \neq Parameter\ Learning\ Only } $$
 
 Structural growth is itself a learning mechanism.
 
-46. Two Learning Channels
+# 46. Two Learning Channels
 
 We can distinguish:
 
@@ -1319,7 +1318,7 @@ $$ \boxed{ Learning = Parameter\ Evolution + Structural\ Evolution } $$
 
 The two channels can interact but need not operate at the same speed.
 
-47. A Third Learning Channel: Runtime Experience
+# 47. A Third Learning Channel: Runtime Experience
 
 There is also a transient layer:
 
@@ -1337,7 +1336,7 @@ $$ \boxed{ \theta + S + C } $$
 
 Reasoning operates over all three.
 
-48. Three Memory Horizons
+# 48. Three Memory Horizons
 
 These correspond roughly to three memory horizons.
 
@@ -1354,7 +1353,7 @@ $$ \boxed{ Context \rightarrow Structure \rightarrow Parameters } $$
 
 can be viewed as increasing persistence and compression.
 
-49. Structural Promotion Across Memory Horizons
+# 49. Structural Promotion Across Memory Horizons
 
 A useful reasoning result may begin as:
 
@@ -1374,7 +1373,7 @@ $$ \boxed{ Context \rightarrow Structural\ Capital \rightarrow Folded\ Capital }
 
 This creates a full intelligence lifecycle.
 
-50. Folded Intelligence Capital and Structural Intelligence Capital
+# 50. Folded Intelligence Capital and Structural Intelligence Capital
 
 The previous paper introduced:
 
@@ -1404,7 +1403,7 @@ $$ \boxed{ FIC \leftrightarrow SIC } $$
 
 becomes a long-term intelligence economy.
 
-51. Reasoning Capital
+# 51. Reasoning Capital
 
 A reasoning episode can therefore create capital.
 
@@ -1420,7 +1419,7 @@ $$ \boxed{ Reasoning \rightarrow Reasoning\ Capital } $$
 
 This is structurally analogous to tool building in human civilization.
 
-52. Reuse Changes the Economics of Reasoning
+# 52. Reuse Changes the Economics of Reasoning
 
 Without preservation:
 
@@ -1436,7 +1435,7 @@ $$ \boxed{ Structural\ Reuse \rightarrow Reduced\ Repeated\ Reasoning } $$
 
 The value of reasoning becomes cumulative.
 
-53. From Reasoning Performance to Reasoning Productivity
+# 53. From Reasoning Performance to Reasoning Productivity
 
 Traditional evaluation may ask:
 
@@ -1452,7 +1451,7 @@ $$ \boxed{ Reasoning\ Productivity = Immediate\ Solution\ Value + Future\ Struct
 
 This is a broader measure than answer accuracy alone.
 
-54. Structural Growth Rate
+# 54. Structural Growth Rate
 
 Let:
 
@@ -1472,7 +1471,7 @@ The objective is not maximum structure.
 
 It is maximum useful validated structural growth.
 
-55. Living Reasoning Efficiency
+# 55. Living Reasoning Efficiency
 
 A broader metric could be:
 
@@ -1482,7 +1481,7 @@ This makes clear why indiscriminate growth is undesirable.
 
 Persistent structure has maintenance cost.
 
-56. Structural Debt
+# 56. Structural Debt
 
 Poorly governed structural growth can create:
 
@@ -1503,7 +1502,7 @@ $$ Growth + Maintenance $$
 
 rather than growth alone.
 
-57. Gap Detection Can Also Detect Structural Debt
+# 57. Gap Detection Can Also Detect Structural Debt
 
 The system can inspect itself for:
 
@@ -1513,7 +1512,7 @@ Therefore self-maintenance becomes another reasoning task.
 
 The system reasons not only about the external world, but also about its own intelligence infrastructure.
 
-58. Meta-Reasoning
+# 58. Meta-Reasoning
 
 When the reasoning system asks:
 
@@ -1539,7 +1538,7 @@ $$ \Delta S_{meta} $$
 
 which improves future reasoning operations.
 
-59. The Living Loop Can Improve Its Own Control Structure
+# 59. The Living Loop Can Improve Its Own Control Structure
 
 Suppose repeated failures reveal:
 
@@ -1562,7 +1561,8 @@ It has improved how it reasons.
 This is:
 
 $$ \boxed{ Structural\ Meta\text{-}Learning } $$
-60. Reasoning About Reasoning
+
+# 60. Reasoning About Reasoning
 
 The loop therefore becomes recursive:
 
@@ -1570,7 +1570,7 @@ $$ Reason $$ $$ \downarrow $$ $$ Evaluate\ Reasoning $$ $$ \downarrow $$ $$ Modi
 
 This is a powerful pathway from static reasoning toward developmental intelligence.
 
-61. Living Reasoning and ASI
+# 61. Living Reasoning and ASI
 
 Within this framework, Autonomous Structural Intelligence is not simply:
 
@@ -1582,7 +1582,7 @@ $$ \boxed{ ASI = Self\text{-}Initiated + Structurally\ Localized + Action\text{-
 
 The key property is closure.
 
-62. Closure
+# 62. Closure
 
 A system approaches autonomous structural reasoning when it can close the following loop without requiring a human prompt at every iteration:
 
@@ -1598,7 +1598,7 @@ escalation target.
 
 Autonomy does not require removing human participation.
 
-63. The ASI Threshold Is Not One Point
+# 63. The ASI Threshold Is Not One Point
 
 There may be no single sharp transition:
 
@@ -1622,7 +1622,7 @@ $$ \boxed{ ASI \ can\ be\ studied \ as\ a\ structural\ capability\ ladder } $$
 
 rather than only as a vague intelligence threshold.
 
-64. A Structural Autonomy Ladder
+# 64. A Structural Autonomy Ladder
 Level 0 — Answering
 $$ Prompt \rightarrow Answer $$
 Level 1 — Multi-Step Reasoning
@@ -1644,7 +1644,7 @@ $$ \boxed{ Continuous\ Structural\ Evolution } $$
 
 This ladder provides a more operational way to discuss increasing AI autonomy.
 
-65. The Living Loop Is Not Endless Thinking
+# 65. The Living Loop Is Not Endless Thinking
 
 Living Reasoning should not be confused with:
 
@@ -1670,7 +1670,7 @@ $$ \boxed{ Living \neq Always\ Running } $$
 
 Living means the capability to restart reasoning from internally meaningful structural triggers.
 
-66. Dormancy Is Part of Living Intelligence
+# 66. Dormancy Is Part of Living Intelligence
 
 A system may reach:
 
@@ -1696,7 +1696,7 @@ can be an intelligent decision.
 
 Autonomy includes knowing when not to reason.
 
-67. Normal and Emergency Reasoning
+# 67. Normal and Emergency Reasoning
 
 Different structural states may require different reasoning regimes.
 
@@ -1714,7 +1714,7 @@ structural damage.
 
 This connects reasoning architecture with runtime governance.
 
-68. Policy-Driven Living Reasoning
+# 68. Policy-Driven Living Reasoning
 
 Policy can govern:
 
@@ -1734,7 +1734,7 @@ Autonomy and policy are not opposites.
 
 Policy can make autonomy operationally governable.
 
-69. CCC as the Loop Activation Operator
+# 69. CCC as the Loop Activation Operator
 
 CCC can express:
 
@@ -1761,7 +1761,7 @@ $$ \boxed{ CCC \rightarrow Living\ Loop\ Trigger } $$
 
 CCC can help turn structural state into runtime action.
 
-70. Runtime Invariants as the Growth Boundary
+# 70. Runtime Invariants as the Growth Boundary
 
 A Living Reasoning system should preserve certified structural constraints.
 
@@ -1787,58 +1787,58 @@ $$ \boxed{ RI = Structural\ Evolution\ Boundary } $$
 
 This provides a bridge between autonomous reasoning and reliable runtime engineering.
 
-71. The Full Structural Intelligence Reasoning Stack
+# 71. The Full Structural Intelligence Reasoning Stack
 
 The complete stack can now be represented as:
 
-GOAL / OBSERVATION / STRUCTURAL STATE
-                 |
-                 v
-        GAP / OPPORTUNITY DETECTION
-                 |
-                 v
-            PRIORITIZATION
-                 |
-                 v
-            LOCALIZATION
-                 |
-                 v
-             UNFOLDING
-                 |
-                 v
-          PER-NODE REASONING
-                 |
-                 v
-        STRUCTURAL TRAVERSAL
-                 |
-                 v
-       TASK / ACTION FORMATION
-                 |
-                 v
-             EXECUTION
-                 |
-                 v
-             OBSERVATION
-                 |
-                 v
-             VALIDATION
-                 |
-                 v
-       STRUCTURAL PROMOTION
-                 |
-                 v
-        PERSISTENT GROWTH
-                 |
-                 v
-      MAINTENANCE / REFOLDING
-                 |
-                 +-------------------->
+    GOAL / OBSERVATION / STRUCTURAL STATE
+                     |
+                     v
+            GAP / OPPORTUNITY DETECTION
+                     |
+                     v
+                PRIORITIZATION
+                     |
+                     v
+                LOCALIZATION
+                     |
+                     v
+                 UNFOLDING
+                     |
+                     v
+              PER-NODE REASONING
+                     |
+                     v
+            STRUCTURAL TRAVERSAL
+                     |
+                     v
+           TASK / ACTION FORMATION
+                     |
+                     v
+                 EXECUTION
+                     |
+                     v
+                 OBSERVATION
+                     |
+                     v
+                 VALIDATION
+                     |
+                     v
+           STRUCTURAL PROMOTION
+                     |
+                     v
+            PERSISTENT GROWTH
+                     |
+                     v
+          MAINTENANCE / REFOLDING
+                     |
+                     +-------------------->
 
 This is no longer an answer pipeline.
 
 It is an intelligence lifecycle.
 
-72. The Canonical Living Reasoning Equation
+# 72. The Canonical Living Reasoning Equation
 
 A compact representation is:
 
@@ -1866,7 +1866,7 @@ $$ S_t $$
 
 This is the mathematical skeleton of Living Reasoning.
 
-73. The Canonical Trigger Equation
+# 73. The Canonical Trigger Equation
 
 The system initiates reasoning when:
 
@@ -1886,7 +1886,7 @@ $$ Activation $$
 
 A system may possess powerful reasoning capability without needing to invoke it continuously.
 
-74. The Canonical Growth Equation
+# 74. The Canonical Growth Equation
 
 A candidate delta:
 
@@ -1902,7 +1902,7 @@ $$ \boxed{ S_{t+1} = PreserveCore(S_t) \oplus \Delta S_t } $$
 
 This is the Core-Preserved Growth equation.
 
-75. The Canonical Evolution Equation
+# 75. The Canonical Evolution Equation
 
 Over many cycles:
 
@@ -1918,7 +1918,7 @@ $$ \boxed{ Trajectory(S) = \{S_0,S_1,\ldots,S_n\} } $$
 
 Thus the intelligence system itself has a developmental history.
 
-76. Structural Evolution Is Auditable
+# 76. Structural Evolution Is Auditable
 
 Because structural changes are explicit, the system can record:
 
@@ -1936,7 +1936,7 @@ $$ \boxed{ Structural\ Evolution \rightarrow Audit\ Trail } $$
 
 This is an important advantage over opaque uncontrolled adaptation.
 
-77. Living Reasoning Is Explainable at the Structural Level
+# 77. Living Reasoning Is Explainable at the Structural Level
 
 The system can answer:
 
@@ -1968,7 +1968,7 @@ $$ Validation + RI \rightarrow Accept $$
 
 This is structural explainability.
 
-78. Living Reasoning and LLMs
+# 78. Living Reasoning and LLMs
 
 LLMs remain central to this architecture.
 
@@ -1994,7 +1994,7 @@ $$ \boxed{ LLM = Major\ Reasoning\ Engine \ within\ Living\ Structural\ Intellig
 
 This is a more scalable division of labor.
 
-79. Structural Intelligence Does Not Make LLM Reasoning Smaller
+# 79. Structural Intelligence Does Not Make LLM Reasoning Smaller
 
 The introduction of explicit structure should not be interpreted as reducing LLM reasoning to a minor local function.
 
@@ -2017,7 +2017,7 @@ $$ \boxed{ LLM \ can\ participate \ across\ the\ entire\ loop } $$
 
 while the Structural Runtime provides persistent organization and governance.
 
-80. The System Becomes More Than the Model
+# 80. The System Becomes More Than the Model
 
 The full intelligence system becomes:
 
@@ -2027,7 +2027,7 @@ Reasoning is a system-level process.
 
 This is a major departure from model-centric interpretations of intelligence.
 
-81. From Model Intelligence to Runtime Intelligence
+# 81. From Model Intelligence to Runtime Intelligence
 
 A model may contain:
 
@@ -2047,7 +2047,7 @@ is an important evolution of AI architecture.
 
 Living Reasoning belongs primarily to this runtime level.
 
-82. From Runtime Intelligence to Structural Runtime Intelligence
+# 82. From Runtime Intelligence to Structural Runtime Intelligence
 
 A generic runtime coordinates operations.
 
@@ -2069,7 +2069,7 @@ $$ \boxed{ Runtime + Explicit\ Intelligence\ Structure = Structural\ Runtime } $
 
 The Living Reasoning Loop operates through this structure.
 
-83. Why This Matters for ASI
+# 83. Why This Matters for ASI
 
 A model can become more capable through scaling.
 
@@ -2092,7 +2092,7 @@ $$ \boxed{ Structural\ Runtime\ Questions } $$
 
 This is why Living Reasoning matters for ASI.
 
-84. A Structural Definition of ASI
+# 84. A Structural Definition of ASI
 
 Within this framework:
 
@@ -2104,7 +2104,7 @@ $$ \boxed{ ASI = Self\text{-}Initiated + Living + Governed + Structural\ Reasoni
 
 This is an architectural definition rather than a claim about a completed system.
 
-85. ASI Is Not Unbounded Autonomy
+# 85. ASI Is Not Unbounded Autonomy
 
 Autonomy should remain bounded by:
 
@@ -2120,7 +2120,7 @@ $$ Unbounded\ Autonomy $$
 
 A Living Reasoning system should know both how to advance and where it must stop.
 
-86. Collective Living Reasoning
+# 86. Collective Living Reasoning
 
 The structural loop need not belong to one AI.
 
@@ -2138,25 +2138,25 @@ $$ \boxed{ Collective\ Reasoning \rightarrow Shared\ Structural\ Growth } $$
 
 This creates a path toward Collective Learning infrastructure.
 
-87. Collective Learning as a Larger Living Loop
+# 87. Collective Learning as a Larger Living Loop
 
 The cycle becomes:
 
-Human / AI Reasoning
-        |
-        v
-Candidate Structural Delta
-        |
-        v
-Collective Validation
-        |
-        v
-Shared Structural Capital
-        |
-        v
-Future Human / AI Reasoning
-        |
-        +--------------------->
+    Human / AI Reasoning
+            |
+            v
+    Candidate Structural Delta
+            |
+            v
+    Collective Validation
+            |
+            v
+    Shared Structural Capital
+            |
+            v
+    Future Human / AI Reasoning
+            |
+            +--------------------->
 
 Thus:
 
@@ -2164,7 +2164,7 @@ $$ \boxed{ Collective\ Learning = Living\ Reasoning \ at\ Social\ Scale } $$
 
 This may be one of the most important long-term implications of the framework.
 
-88. From Private Reasoning to Public Intelligence Infrastructure
+# 88. From Private Reasoning to Public Intelligence Infrastructure
 
 A reasoning insight initially exists in:
 
@@ -2190,7 +2190,7 @@ becomes possible.
 
 This is the structural bridge between individual intelligence and collective intelligence.
 
-89. The Full Evolutionary Loop
+# 89. The Full Evolutionary Loop
 
 The largest loop developed in this series is:
 
@@ -2204,7 +2204,7 @@ This is not intended as one mandatory implementation pipeline.
 
 It is a structural map of an evolving intelligence lifecycle.
 
-90. The Three Major Transitions
+# 90. The Three Major Transitions
 
 The theory can be compressed into three transitions.
 
@@ -2217,7 +2217,7 @@ $$ \boxed{ Reasoning\ Episode \rightarrow Living\ Reasoning\ Cycle } $$
 
 Together, these transitions define the movement from ordinary AI reasoning toward Living Structural Intelligence.
 
-91. The Three Fundamental Questions
+# 91. The Three Fundamental Questions
 
 A Living Reasoning system must repeatedly answer three questions.
 
@@ -2242,7 +2242,7 @@ $$ \boxed{ Where \rightarrow What \rightarrow What\ Remains } $$
 
 This is the minimal architecture of cumulative reasoning.
 
-92. A Fourth Question: What Next?
+# 92. A Fourth Question: What Next?
 
 Living Reasoning adds one more question:
 
@@ -2262,7 +2262,7 @@ $$ \boxed{ Where? \rightarrow What? \rightarrow What\ Remains? \rightarrow What\
 
 The fourth question closes the loop.
 
-93. Research Questions
+# 93. Research Questions
 RQ-1 — What qualifies as a useful Structural Delta?
 
 How should the future value of:
@@ -2326,7 +2326,7 @@ RQ-12 — How can Collective Learning use the Living Reasoning Loop?
 
 Can validated structural deltas from many humans and AIs become shared reasoning infrastructure?
 
-94. Core Propositions
+# 94. Core Propositions
 Proposition 1 — Reasoning can produce more than an answer
 $$ \boxed{ Output = Answer + Structural\ Delta } $$
 Proposition 2 — Reasoning becomes cumulative when validated deltas persist
@@ -2355,7 +2355,8 @@ Proposition 11 — Meta-reasoning can improve the reasoning system itself
 $$ \boxed{ Reasoning \rightarrow ReasoningAboutReasoning \rightarrow BetterReasoning } $$
 Proposition 12 — Collective Learning can be interpreted as Living Reasoning at social scale
 $$ \boxed{ Many\ Reasoners \rightarrow Shared\ Structural\ Growth } $$
-95. Central Thesis
+
+# 95. Central Thesis
 
 The central thesis of this paper is:
 
@@ -2376,7 +2377,9 @@ $$ \boxed{ Gap / Opportunity \rightarrow Localization \rightarrow Unfolding \rig
 This is the:
 
 $$ \boxed{ Living\ Reasoning\ Loop } $$
-96. Canonical Diagram
+
+# 96. Canonical Diagram
+
                     STRUCTURAL STATE S(t)
                             |
                             v
@@ -2435,7 +2438,8 @@ $$ \boxed{ S_t \rightarrow S_{t+1} } $$
 The defining closure is:
 
 $$ \boxed{ S_{t+1} \rightarrow Next\ Reasoning } $$
-97. Conclusion
+
+# 97. Conclusion
 
 AI reasoning is usually discussed in terms of the quality of its answers.
 
@@ -2509,9 +2513,9 @@ the loop closes.
 
 That closure is one of the clearest structural pathways from contemporary AI reasoning toward Autonomous Structural Intelligence.
 
-Next
+# Next
 
-STAR-008 — The Structural Theory of AI Reasoning: Canonical Synthesis
+**STAR-008** — The Structural Theory of AI Reasoning: Canonical Synthesis
 
 The next paper will consolidate the complete theory developed across STAR-001 through STAR-007:
 

@@ -117,28 +117,26 @@ Contemporary AI reasoning is largely model-centered.
 
 A simplified architecture is:
 
-```text
-Input
-  |
-  v
-Large Language Model
-  |
-  v
-Output
-```
+    Input
+      |
+      v
+    Large Language Model
+      |
+      v
+    Output
 
 With additional reasoning mechanisms:
 
-Prompt
-  |
-  v
-LLM
-  |
-  v
-Internal Multi-Step Reasoning
-  |
-  v
-Answer
+    Prompt
+      |
+      v
+    LLM
+      |
+      v
+    Internal Multi-Step Reasoning
+      |
+      v
+    Answer
 
 The dominant engineering question is often:
 
@@ -160,7 +158,7 @@ These developments are important.
 
 But they do not imply that the long-term architecture of AI reasoning must remain monolithic.
 
-2. Model Scaling and Architectural Scaling
+# 2. Model Scaling and Architectural Scaling
 
 There are at least two fundamentally different scaling directions.
 
@@ -187,7 +185,7 @@ $$ \boxed{ Future\ Reasoning\ Scaling = Model\ Scaling + Architectural\ Scaling 
 
 The second dimension may become increasingly important.
 
-3. Why Reasoning May Naturally Differentiate
+# 3. Why Reasoning May Naturally Differentiate
 
 Reasoning contains several distinct functions.
 
@@ -214,7 +212,7 @@ $$ \boxed{ Reasoning \neq One\ Computational\ Operation } $$
 
 Reasoning may naturally differentiate into specialized subsystems.
 
-4. The Biological Analogy
+# 4. The Biological Analogy
 
 Complex biological intelligence does not appear to rely on one perfectly uniform computational operation.
 
@@ -230,7 +228,7 @@ The point is architectural:
 
 Complex intelligence may benefit from specialized computational structures connected through a common runtime.
 
-5. LLMs as Folding Architectures
+# 5. LLMs as Folding Architectures
 
 LLMs can be interpreted structurally as large-scale learned Folding systems.
 
@@ -257,7 +255,7 @@ $$ \boxed{ Folding \rightarrow Unfolding } $$
 
 provides one useful structural interpretation of LLM reasoning.
 
-6. Why Folding Naturally Implies Unfolding
+# 6. Why Folding Naturally Implies Unfolding
 
 A folded structure is useful because relevant capability can later be recovered or reconstructed.
 
@@ -281,7 +279,7 @@ structurally addressed.
 
 This suggests an important future direction.
 
-7. From Transformer to Explicit Unfolding Architecture
+# 7. From Transformer to Explicit Unfolding Architecture
 
 The conventional Transformer is optimized primarily around learned representation and sequence transformation.
 
@@ -306,7 +304,8 @@ $$ \boxed{ Unfolding\ Architecture } $$
 or provisionally:
 
 $$ \boxed{ Unfolding\ Transformer } $$
-8. The Unfolding Transformer Hypothesis
+
+# 8. The Unfolding Transformer Hypothesis
 
 The hypothesis is not:
 
@@ -328,7 +327,7 @@ $$ \boxed{ Folding\ Engine \leftrightarrow Unfolding\ Engine } $$
 
 may emerge as a future division of labor.
 
-9. Why an Unfolding Architecture Could Be Useful
+# 9. Why an Unfolding Architecture Could Be Useful
 
 An explicit Unfolding architecture could potentially control:
 
@@ -353,7 +352,7 @@ $$ \boxed{ Reasoning\ Expansion\ Structure } $$
 
 This would make Unfolding itself an architectural object.
 
-10. Unfolding Need Not Be Token-Centric
+# 10. Unfolding Need Not Be Token-Centric
 
 Current LLM reasoning is strongly mediated by token sequences.
 
@@ -367,7 +366,7 @@ $$ \boxed{ Token\ Unfolding \rightarrow Structural\ Unfolding } $$
 
 may become an important research direction.
 
-11. Structural Intelligence Approaches from the Other Direction
+# 11. Structural Intelligence Approaches from the Other Direction
 
 Structural Intelligence begins not with a folded latent space, but with explicit structure.
 
@@ -391,7 +390,7 @@ That is:
 
 Where in the intelligence structure does the current problem belong?
 
-12. Localization as a First-Class Architecture
+# 12. Localization as a First-Class Architecture
 
 Instead of requiring a reasoning engine to discover the relevant region entirely internally:
 
@@ -411,7 +410,7 @@ $$ \boxed{ Localization \rightarrow Reasoning } $$
 
 becomes an explicit architectural boundary.
 
-13. The Structural Handshake
+# 13. The Structural Handshake
 
 The previous paper introduced:
 
@@ -443,7 +442,7 @@ The two reasoning processes approach from opposite directions:
 
 This is the fundamental handshake around which future reasoning architectures may be organized.
 
-14. The Future Reasoning Interface
+# 14. The Future Reasoning Interface
 
 A future system may expose an interface conceptually similar to:
 
@@ -477,7 +476,8 @@ StructuralState preserve(
 The canonical runtime becomes:
 
 $$ \boxed{ LOCALIZE \rightarrow UNFOLD \rightarrow VALIDATE \rightarrow PRESERVE } $$
-15. Architecture A — LLM-Centered Reasoning
+
+# 15. Architecture A — LLM-Centered Reasoning
 
 The first architecture remains close to current systems.
 
@@ -507,7 +507,7 @@ strong language interface.
 
 It will likely remain important.
 
-16. Limitation of the LLM-Centered Architecture
+# 16. Limitation of the LLM-Centered Architecture
 
 The model must internally or semi-internally perform:
 
@@ -526,7 +526,7 @@ $$ \boxed{ Reasoning\ Function\ Concentration } $$
 
 As systems become more complex, explicit division of labor may become increasingly attractive.
 
-17. Architecture B — LLM + Structural Localization
+# 17. Architecture B — LLM + Structural Localization
 
 The next architecture introduces an explicit localizer.
 
@@ -558,7 +558,7 @@ $$ \boxed{ Localization \rightarrow LLM } $$
 
 reduces one burden on the model.
 
-18. Architecture C — Localization + Multiple Reasoners
+# 18. Architecture C — Localization + Multiple Reasoners
 
 Once Localization becomes explicit, the system need not always call the same model.
 
@@ -584,7 +584,7 @@ becomes possible.
 
 This supports heterogeneous intelligence.
 
-19. Per-Node Intelligence
+# 19. Per-Node Intelligence
 
 Different nodes may use different reasoning mechanisms.
 
@@ -598,7 +598,7 @@ $$ \boxed{ Intelligence = Composition\ of\ Heterogeneous\ Per\text{-}Node\ Intel
 
 This is a major Structural Intelligence principle.
 
-20. The Future Is Not Necessarily LLM Everywhere
+# 20. The Future Is Not Necessarily LLM Everywhere
 
 Once reasoning is structurally localized, some nodes may not need an LLM at all.
 
@@ -620,7 +620,8 @@ $$ \boxed{ Best\ Reasoner = f(Node,Context,Goal,Policy) } $$
 rather than:
 
 $$ Best\ Reasoner = LLM\ Everywhere $$
-21. LLM as a High-Level Reasoning Engine
+
+# 21. LLM as a High-Level Reasoning Engine
 
 This does not diminish the role of LLMs.
 
@@ -644,7 +645,7 @@ is valuable.
 
 Other mechanisms can handle more rigid local operations.
 
-22. Architecture D — Folding Core + Unfolding Engine
+# 22. Architecture D — Folding Core + Unfolding Engine
 
 A more radical architecture separates folded capability from reasoning expansion.
 
@@ -669,7 +670,7 @@ $$ \boxed{ Folded\ Core + Unfolding\ Engine } $$
 
 becomes a new model-level architecture.
 
-23. Architecture E — Localization + Unfolding Dual System
+# 23. Architecture E — Localization + Unfolding Dual System
 
 The previous two directions can be combined:
 
@@ -693,7 +694,7 @@ $$ \boxed{ Localization \rightarrow Unfolding } $$
 
 This is one of the strongest candidate architectures suggested by this theory.
 
-24. The Two-Sided Search
+# 24. The Two-Sided Search
 
 Localization and Unfolding can be understood as two-sided search.
 
@@ -715,7 +716,7 @@ $$ \boxed{ Where + What \rightarrow Reasoning } $$
 
 This division can make reasoning more controllable.
 
-25. Architecture F — Bidirectional Localization–Unfolding
+# 25. Architecture F — Bidirectional Localization–Unfolding
 
 The handshake should not be strictly one-way.
 
@@ -746,7 +747,8 @@ $$ \boxed{ Localization \leftrightarrow Unfolding } $$
 is preferable to rigid:
 
 $$ Localization \rightarrow Unfolding $$
-26. Architecture G — Tree Localization + Graph Reasoning
+
+# 26. Architecture G — Tree Localization + Graph Reasoning
 
 Different structural forms can specialize.
 
@@ -760,19 +762,19 @@ $$ Relation + Dependency + Traversal + Extension $$
 
 Thus:
 
-Goal
- |
- v
-Differential / Classification Tree
- |
- v
-Localized Region
- |
- v
-Calling Graph
- |
- v
-Reasoning / Traversal / Gap Detection
+    Goal
+     |
+     v
+    Differential / Classification Tree
+     |
+     v
+    Localized Region
+     |
+     v
+    Calling Graph
+     |
+     v
+    Reasoning / Traversal / Gap Detection
 
 This creates:
 
@@ -780,7 +782,7 @@ $$ \boxed{ Tree \rightarrow Graph } $$
 
 as a powerful reasoning pattern.
 
-27. Why Trees and Graphs Are Complementary
+# 27. Why Trees and Graphs Are Complementary
 
 A tree asks:
 
@@ -802,7 +804,7 @@ The two should not be forced into one representation.
 
 Structural specialization is an advantage.
 
-28. Architecture H — Calling Graph Reasoning
+# 28. Architecture H — Calling Graph Reasoning
 
 Calling Graphs can represent:
 
@@ -822,7 +824,7 @@ $$ \boxed{ CallingGraph = Reasoning\ Surface } $$
 
 rather than merely a visualization.
 
-29. Gap Bridging as a Native Reasoning Operation
+# 29. Gap Bridging as a Native Reasoning Operation
 
 A future reasoning runtime may expose:
 
@@ -840,7 +842,7 @@ $$ \boxed{ A\ Structurally\ Typed\ Gap } $$
 
 This makes reasoning more addressable.
 
-30. Forward Extension as a Native Reasoning Operation
+# 30. Forward Extension as a Native Reasoning Operation
 
 Likewise:
 
@@ -864,7 +866,7 @@ $$ \boxed{ Extend() } $$
 
 may become fundamental reasoning runtime operations.
 
-31. Architecture I — TaskGraph Reasoning
+# 31. Architecture I — TaskGraph Reasoning
 
 For higher-level reasoning:
 
@@ -886,7 +888,8 @@ close tasks.
 Thus:
 
 $$ \boxed{ TaskGraph = Explicit\ Reasoning\ Agenda } $$
-32. Architecture J — Action Calling Graph
+
+# 32. Architecture J — Action Calling Graph
 
 The Action Calling Graph represents:
 
@@ -909,7 +912,7 @@ AI actions.
 
 This gives reasoning an executable substrate.
 
-33. TaskGraph–ActionCG Dual Architecture
+# 33. TaskGraph–ActionCG Dual Architecture
 
 The dual system becomes:
 
@@ -940,7 +943,7 @@ $$ \boxed{ TaskGraph \leftrightarrow ActionCG } $$
 
 forms a reasoning–execution loop.
 
-34. Core-Preserved Coding as an Extension Mechanism
+# 34. Core-Preserved Coding as an Extension Mechanism
 
 Suppose the ActionCG encounters:
 
@@ -966,7 +969,7 @@ $$ \boxed{ Reasoning \rightarrow Capability\ Gap \rightarrow Coding \rightarrow 
 
 This creates a powerful self-extension pathway.
 
-35. AI Coding and AI Reasoning Become Dual Growth Processes
+# 35. AI Coding and AI Reasoning Become Dual Growth Processes
 
 The two processes are:
 
@@ -981,7 +984,7 @@ $$ \boxed{ Core\text{-}Preserved\ Coding \leftrightarrow Core\text{-}Preserved\ 
 
 Future AI systems may coordinate both through the same structural runtime.
 
-36. Architecture K — Structural Reasoning Runtime
+# 36. Architecture K — Structural Reasoning Runtime
 
 The previous components suggest a new system layer:
 
@@ -1006,7 +1009,7 @@ audit.
 
 This is substantially more than an LLM wrapper.
 
-37. The Runtime Becomes the Integration Layer
+# 37. The Runtime Becomes the Integration Layer
 
 A future architecture may look like:
 
@@ -1048,7 +1051,7 @@ A future architecture may look like:
 
 This is a system-level reasoning architecture.
 
-38. Structural Runtime vs Agent Loop
+# 38. Structural Runtime vs Agent Loop
 
 A conventional agent loop may be:
 
@@ -1065,7 +1068,8 @@ $$ Result \rightarrow Validate \rightarrow StructuralGrowth $$
 Thus:
 
 $$ \boxed{ Agent\ Loop + Persistent\ Structural\ Intelligence = Structural\ Reasoning\ Runtime } $$
-39. Architecture L — Runtime Invariant Protected Reasoning
+
+# 39. Architecture L — Runtime Invariant Protected Reasoning
 
 Future autonomous reasoning requires boundaries.
 
@@ -1099,7 +1103,7 @@ $$ \boxed{ Reasoning + Growth + Invariant\ Preservation } $$
 
 provides a path toward governed autonomy.
 
-40. Runtime Invariants as Certified Building Blocks
+# 40. Runtime Invariants as Certified Building Blocks
 
 If reasoning structures can themselves become certified:
 
@@ -1117,7 +1121,7 @@ $$ \boxed{ Reuse + Compose + Extend } $$
 
 This could substantially reduce reasoning cost and risk.
 
-41. Architecture M — Structural Memory
+# 41. Architecture M — Structural Memory
 
 Future AI memory may become less document-centric and more structurally typed.
 
@@ -1143,7 +1147,7 @@ $$ \boxed{ Memory \rightarrow Operational\ Structural\ Memory } $$
 
 The stored object can directly participate in reasoning.
 
-42. Structural Memory and Retrieval
+# 42. Structural Memory and Retrieval
 
 Traditional retrieval asks:
 
@@ -1161,7 +1165,7 @@ may improve reasoning precision.
 
 The future of retrieval may therefore increasingly overlap with Structural Intelligence.
 
-43. Architecture N — Living Reasoning
+# 43. Architecture N — Living Reasoning
 
 STAR-007 introduced:
 
@@ -1177,7 +1181,7 @@ $$ S_{t+1} \rightarrow Reasoning_{t+1} $$
 
 Reasoning changes the structure from which future reasoning begins.
 
-44. From Prompt-Driven to Gap-Driven AI
+# 44. From Prompt-Driven to Gap-Driven AI
 
 A major architectural transition is:
 
@@ -1199,7 +1203,7 @@ $$ \boxed{ External\ Prompt \rightarrow Internal\ Structural\ Trigger } $$
 
 is a major step toward autonomy.
 
-45. From Gap-Driven to Opportunity-Driven AI
+# 45. From Gap-Driven to Opportunity-Driven AI
 
 An even more advanced system can identify:
 
@@ -1218,34 +1222,35 @@ This creates proactive intelligence.
 The progression is:
 
 $$ \boxed{ Prompt\text{-}Driven \rightarrow Gap\text{-}Driven \rightarrow Opportunity\text{-}Driven } $$
-46. Architecture O — Self-Extending Structural AI
+
+# 46. Architecture O — Self-Extending Structural AI
 
 Combining these mechanisms gives:
 
-Structural State
-      |
-      v
-Gap / Opportunity Detection
-      |
-      v
-Localization
-      |
-      v
-Reasoning / Unfolding
-      |
-      v
-Candidate Extension
-      |
-      v
-Validation
-      |
-      v
-Structural Growth
-      |
-      v
-Capability Growth
-      |
-      +-------------------->
+    Structural State
+          |
+          v
+    Gap / Opportunity Detection
+          |
+          v
+    Localization
+          |
+          v
+    Reasoning / Unfolding
+          |
+          v
+    Candidate Extension
+          |
+          v
+    Validation
+          |
+          v
+    Structural Growth
+          |
+          v
+    Capability Growth
+          |
+          +-------------------->
 
 This is:
 
@@ -1253,7 +1258,7 @@ $$ \boxed{ Self\text{-}Extending\ Structural\ AI } $$
 
 subject to governance and invariants.
 
-47. Architecture P — Meta-Reasoning Runtime
+# 47. Architecture P — Meta-Reasoning Runtime
 
 A sufficiently mature system may detect not only domain gaps, but reasoning-system gaps.
 
@@ -1271,7 +1276,7 @@ $$ MetaGap \rightarrow MetaReasoning \rightarrow ReasoningArchitectureDelta $$
 
 Thus the system can improve how it reasons.
 
-48. Reasoning About Reasoning
+# 48. Reasoning About Reasoning
 
 Meta-reasoning creates:
 
@@ -1283,7 +1288,7 @@ The object being modified is the reasoning architecture itself.
 
 This should require stronger governance.
 
-49. Architecture Q — Multi-Brain AI Units
+# 49. Architecture Q — Multi-Brain AI Units
 
 A future system may contain specialized AI units:
 
@@ -1301,7 +1306,7 @@ $$ \boxed{ Localization \rightarrow Specialized\ Brain\ Unit } $$
 
 provides another form of reasoning division of labor.
 
-50. Multi-Brain Systems Need Structural Coordination
+# 50. Multi-Brain Systems Need Structural Coordination
 
 Without explicit coordination:
 
@@ -1326,7 +1331,7 @@ $$ \boxed{ Multi\text{-}Brain + Structural\ Runtime } $$
 
 is more important than simply adding more models.
 
-51. Architecture R — Collective Reasoning Infrastructure
+# 51. Architecture R — Collective Reasoning Infrastructure
 
 The same architecture can extend beyond one AI system.
 
@@ -1347,7 +1352,8 @@ Future humans and AIs can reuse it.
 Thus:
 
 $$ \boxed{ Reasoning \rightarrow Collective\ Learning } $$
-52. Collective Learning Changes the Unit of Progress
+
+# 52. Collective Learning Changes the Unit of Progress
 
 If every reasoning process remains private:
 
@@ -1371,7 +1377,7 @@ $$ \boxed{ Individual\ Reasoning \rightarrow Collective\ Structural\ Accumulatio
 
 may become a major future intelligence mechanism.
 
-53. Future Reasoning May Be Infrastructure-Centric
+# 53. Future Reasoning May Be Infrastructure-Centric
 
 Today the central artifact is often:
 
@@ -1390,63 +1396,63 @@ may be a major architectural transition.
 54. A Possible Future AI Reasoning Stack
 
 A future stack could be:
-
-+--------------------------------------------------+
-|              GOALS / HUMAN / ENVIRONMENT         |
-+--------------------------------------------------+
-                         |
-                         v
-+--------------------------------------------------+
-|        GAP / OPPORTUNITY / EVENT DETECTION       |
-+--------------------------------------------------+
-                         |
-                         v
-+--------------------------------------------------+
-|          STRUCTURAL LOCALIZATION LAYER           |
-|  Differential Tree / Classification / Routing    |
-+--------------------------------------------------+
-                         |
-                         v
-+--------------------------------------------------+
-|              REASONING CONTROL LAYER             |
-|     CCC / Policy / Budget / Risk / Priority      |
-+--------------------------------------------------+
-                         |
-                         v
-+--------------------------------------------------+
-|             UNFOLDING / REASONING LAYER          |
-| LLM | Solver | Search | Specialist | Human       |
-+--------------------------------------------------+
-                         |
-                         v
-+--------------------------------------------------+
-|            STRUCTURAL REASONING LAYER            |
-| Calling Graph | TaskGraph | Gap | Extension      |
-+--------------------------------------------------+
-                         |
-                         v
-+--------------------------------------------------+
-|               ACTION RUNTIME LAYER               |
-| ActionCG | Tools | APIs | Code | Workflows       |
-+--------------------------------------------------+
-                         |
-                         v
-+--------------------------------------------------+
-|              VALIDATION / RI LAYER               |
-| Tests | Evidence | Rules | Human | Invariants    |
-+--------------------------------------------------+
-                         |
-                         v
-+--------------------------------------------------+
-|        STRUCTURAL MEMORY / GROWTH LAYER          |
-| Promote | Preserve | Reuse | Prune | Refold      |
-+--------------------------------------------------+
-                         |
-                         +-------------------------->
+    
+    +--------------------------------------------------+
+    |              GOALS / HUMAN / ENVIRONMENT         |
+    +--------------------------------------------------+
+                             |
+                             v
+    +--------------------------------------------------+
+    |        GAP / OPPORTUNITY / EVENT DETECTION       |
+    +--------------------------------------------------+
+                             |
+                             v
+    +--------------------------------------------------+
+    |          STRUCTURAL LOCALIZATION LAYER           |
+    |  Differential Tree / Classification / Routing    |
+    +--------------------------------------------------+
+                             |
+                             v
+    +--------------------------------------------------+
+    |              REASONING CONTROL LAYER             |
+    |     CCC / Policy / Budget / Risk / Priority      |
+    +--------------------------------------------------+
+                             |
+                             v
+    +--------------------------------------------------+
+    |             UNFOLDING / REASONING LAYER          |
+    | LLM | Solver | Search | Specialist | Human       |
+    +--------------------------------------------------+
+                             |
+                             v
+    +--------------------------------------------------+
+    |            STRUCTURAL REASONING LAYER            |
+    | Calling Graph | TaskGraph | Gap | Extension      |
+    +--------------------------------------------------+
+                             |
+                             v
+    +--------------------------------------------------+
+    |               ACTION RUNTIME LAYER               |
+    | ActionCG | Tools | APIs | Code | Workflows       |
+    +--------------------------------------------------+
+                             |
+                             v
+    +--------------------------------------------------+
+    |              VALIDATION / RI LAYER               |
+    | Tests | Evidence | Rules | Human | Invariants    |
+    +--------------------------------------------------+
+                             |
+                             v
+    +--------------------------------------------------+
+    |        STRUCTURAL MEMORY / GROWTH LAYER          |
+    | Promote | Preserve | Reuse | Prune | Refold      |
+    +--------------------------------------------------+
+                             |
+                             +-------------------------->
 
 This architecture makes reasoning a coordinated runtime process.
 
-55. The LLM–SI Reasoning Map
+# 55. The LLM–SI Reasoning Map
 
 The distinction can be summarized as follows:
 
@@ -1476,7 +1482,8 @@ The important conclusion is not that one column should defeat the other.
 It is:
 
 $$ \boxed{ The\ columns\ are\ complementary } $$
-56. The Convergence Architecture
+
+# 56. The Convergence Architecture
 
 The future system may combine the strongest features of both columns.
 
@@ -1514,7 +1521,7 @@ Future Localization
 
 This is the core convergence architecture.
 
-57. The Three-Way Division of Labor
+# 57. The Three-Way Division of Labor
 
 A mature architecture may have three major intelligence roles.
 
@@ -1540,7 +1547,7 @@ $$ \boxed{ Where \rightarrow What \rightarrow What\ Remains } $$
 
 forms the core reasoning pipeline.
 
-58. The Fourth Role — What Next?
+# 58. The Fourth Role — What Next?
 
 Living Reasoning adds:
 
@@ -1560,7 +1567,7 @@ $$ \boxed{ Where? \rightarrow What? \rightarrow What\ Remains? \rightarrow What\
 
 The fourth question closes the evolutionary loop.
 
-59. Reasoning Architecture May Become Cyclic Rather Than Linear
+# 59. Reasoning Architecture May Become Cyclic Rather Than Linear
 
 Traditional AI architecture is often drawn:
 
@@ -1576,7 +1583,7 @@ The central object is no longer only the model.
 
 It is the evolving reasoning loop.
 
-60. Future Reasoning May Become Event-Driven
+# 60. Future Reasoning May Become Event-Driven
 
 A Structural Runtime can respond to:
 
@@ -1594,7 +1601,7 @@ rather than purely prompt-driven.
 
 This makes AI reasoning look increasingly like a runtime system.
 
-61. Future Reasoning May Become Addressable
+# 61. Future Reasoning May Become Addressable
 
 Instead of:
 
@@ -1614,7 +1621,7 @@ $$ \boxed{ Reasoning \rightarrow Addressable\ Runtime\ Operation } $$
 
 This is a major engineering advantage of explicit structure.
 
-62. Future Reasoning May Become Typed
+# 62. Future Reasoning May Become Typed
 
 A reasoning request can carry a type:
 
@@ -1630,7 +1637,7 @@ $$ \boxed{ Typed\ Reasoning } $$
 
 may replace some generic prompting.
 
-63. Future Reasoning May Become Budget-Aware
+# 63. Future Reasoning May Become Budget-Aware
 
 Structural importance can determine reasoning cost.
 
@@ -1657,7 +1664,7 @@ $$ \boxed{ Reasoning\ Budget \leftarrow Structural\ Need } $$
 
 becomes a runtime policy.
 
-64. Structural Test-Time Scaling
+# 64. Structural Test-Time Scaling
 
 Instead of:
 
@@ -1683,7 +1690,7 @@ means allocating compute according to explicit reasoning structure.
 
 This may become an important efficiency frontier.
 
-65. Future Reasoning May Become Auditable
+# 65. Future Reasoning May Become Auditable
 
 Because reasoning is structurally addressed, the system can record:
 
@@ -1717,7 +1724,7 @@ $$ \boxed{ Reasoning \rightarrow Runtime\ Audit\ Trail } $$
 
 becomes natural.
 
-66. Future Reasoning May Become Reusable
+# 66. Future Reasoning May Become Reusable
 
 If a validated reasoning structure is preserved:
 
@@ -1737,7 +1744,7 @@ $$ \boxed{ Reasoning\ Output \rightarrow Reasoning\ Infrastructure } $$
 
 This may fundamentally change the economics of inference.
 
-67. Future Reasoning May Become Compositional
+# 67. Future Reasoning May Become Compositional
 
 Validated structural units can be composed:
 
@@ -1753,7 +1760,7 @@ $$ \boxed{ Generate\ Everything \rightarrow Compose\ Trusted\ Intelligence } $$
 
 may become an important engineering transition.
 
-68. Future Reasoning May Become Evolvable Without Constant Retraining
+# 68. Future Reasoning May Become Evolvable Without Constant Retraining
 
 If:
 
@@ -1778,7 +1785,8 @@ scientific systems;
 long-running agents;
 personalized systems;
 autonomous machines.
-69. Future Model Training May Consume Structural Growth
+
+# 69. Future Model Training May Consume Structural Growth
 
 Persistent Structural Intelligence can later become training material.
 
@@ -1796,7 +1804,7 @@ $$ \boxed{ Model \rightarrow Structure \rightarrow Model } $$
 
 as an evolutionary loop.
 
-70. Folding and Unfolding May Become Separate Optimization Targets
+# 70. Folding and Unfolding May Become Separate Optimization Targets
 
 Current training often optimizes a model globally.
 
@@ -1824,7 +1832,7 @@ $$ \boxed{ AI\ Reasoning\ Quality = f(FQ,UQ,LQ,VQ) } $$
 
 This decomposition creates new research targets.
 
-71. The Unfolding–Localization Duality
+# 71. The Unfolding–Localization Duality
 
 The core duality is:
 
@@ -1844,7 +1852,7 @@ $$ \boxed{ Operational\ Reasoning } $$
 
 This duality may become a useful architectural principle independent of any specific implementation.
 
-72. A Possible Dual-Transformer Direction
+# 72. A Possible Dual-Transformer Direction
 
 One speculative future architecture could contain:
 
@@ -1870,32 +1878,32 @@ providing explicit reasoning addresses.
 
 Conceptually:
 
-              INPUT / EXPERIENCE
-                     |
-                     v
-            FOLDING TRANSFORMER
-                     |
-                     v
-              FOLDED CORE
-                     |
-                     |
-Structural Space --> LOCALIZER
-                     |
-                     v
-             Local Reasoning Region
-                     |
-                     v
-           UNFOLDING TRANSFORMER
-                     |
-                     v
-              Candidate Delta
-                     |
-                     v
-                Validator
+                  INPUT / EXPERIENCE
+                         |
+                         v
+                FOLDING TRANSFORMER
+                         |
+                         v
+                  FOLDED CORE
+                         |
+                         |
+    Structural Space --> LOCALIZER
+                         |
+                         v
+                 Local Reasoning Region
+                         |
+                         v
+               UNFOLDING TRANSFORMER
+                         |
+                         v
+                  Candidate Delta
+                         |
+                         v
+                    Validator
 
 This is a research hypothesis, not a claim that such an architecture is already established.
 
-73. The Dual Transformer Need Not Be Symmetric
+# 73. The Dual Transformer Need Not Be Symmetric
 
 The two systems may differ substantially.
 
@@ -1921,7 +1929,7 @@ $$ \boxed{ Dual \neq Mirror\ Copy } $$
 
 The duality is functional, not necessarily architectural symmetry.
 
-74. Unfolding Could Become a Family of Engines
+# 74. Unfolding Could Become a Family of Engines
 
 There may not be one universal Unfolding Transformer.
 
@@ -1937,7 +1945,7 @@ $$ Localization \rightarrow UnfoldingRouter \rightarrow U_i $$
 
 This would parallel the Structural Intelligence principle of Per-Node specialization.
 
-75. The Architecture Converges Toward Function Tunnels
+# 75. The Architecture Converges Toward Function Tunnels
 
 Repeated reasoning over a domain may stabilize into:
 
@@ -1955,7 +1963,7 @@ $$ \boxed{ Tunnel\ Reuse } $$
 
 This is another mechanism for cumulative efficiency.
 
-76. Reasoning Creates Function Tunnel Capital
+# 76. Reasoning Creates Function Tunnel Capital
 
 Successful repeated reasoning can accumulate:
 
@@ -1973,7 +1981,7 @@ $$ \boxed{ Function\ Tunnel\ Capital } $$
 
 This provides a structural interpretation of specialization.
 
-77. Future AI May Be a Society of Specialized Reasoning Units
+# 77. Future AI May Be a Society of Specialized Reasoning Units
 
 A mature architecture may resemble:
 
@@ -1994,7 +2002,7 @@ The runtime coordinates specialized reasoning capital.
 
 This is substantially different from one universal model doing everything.
 
-78. The Role of the General LLM
+# 78. The Role of the General LLM
 
 Even in such a system, a general LLM may remain essential as:
 
@@ -2011,7 +2019,7 @@ $$ \boxed{ General\ LLM + Specialized\ Structural\ Intelligence } $$
 
 may be more realistic than either extreme alone.
 
-79. Structural Intelligence as the Coordination Plane
+# 79. Structural Intelligence as the Coordination Plane
 
 In such systems, Structural Intelligence can act as:
 
@@ -2039,7 +2047,7 @@ $$ Control $$
 
 in many mature engineering systems.
 
-80. Reasoning Control Plane and Reasoning Data Plane
+# 80. Reasoning Control Plane and Reasoning Data Plane
 
 A useful future distinction may be:
 
@@ -2069,7 +2077,7 @@ $$ \boxed{ Control\ Plane \leftrightarrow Reasoning\ Data\ Plane } $$
 
 could become an important architectural separation.
 
-81. Structural Runtime as the Control Plane
+# 81. Structural Runtime as the Control Plane
 
 Structural Intelligence naturally provides much of the control plane.
 
@@ -2087,7 +2095,7 @@ $$ Localization \leftrightarrow Unfolding $$
 
 at system scale.
 
-82. The Architecture Is Not Fixed
+# 82. The Architecture Is Not Fixed
 
 The future is unlikely to contain one final universal reasoning architecture.
 
@@ -2109,35 +2117,36 @@ $$ TaskGraph + ActionCG + Policy + Specialists $$
 Thus:
 
 $$ \boxed{ Reasoning\ Architecture = Domain\text{-}Dependent } $$
-83. A Future Architectural Spectrum
+
+# 83. A Future Architectural Spectrum
 
 Rather than one architecture, there may be a spectrum:
 
 MODEL-CENTRIC                                      STRUCTURE-CENTRIC
 
-LLM
- |
-LLM + Tools
- |
-LLM + Retrieval
- |
-LLM + Structural Localization
- |
-Localization + Multiple Reasoners
- |
-Structural Runtime + LLM
- |
-Structural Runtime + Specialized Brain Units
- |
-Living Structural Intelligence
- |
-Collective Structural Intelligence
+    LLM
+     |
+    LLM + Tools
+     |
+    LLM + Retrieval
+     |
+    LLM + Structural Localization
+     |
+    Localization + Multiple Reasoners
+     |
+    Structural Runtime + LLM
+     |
+    Structural Runtime + Specialized Brain Units
+     |
+    Living Structural Intelligence
+     |
+    Collective Structural Intelligence
 
 The likely future is not necessarily movement completely to the right.
 
 It may be dynamic placement along this spectrum according to task requirements.
 
-84. The Architectural Selection Principle
+# 84. The Architectural Selection Principle
 
 A useful principle is:
 
@@ -2151,7 +2160,7 @@ not added merely for architectural elegance.
 
 This keeps the theory engineering-oriented.
 
-85. What LLMs Are Likely to Remain Best At
+# 85. What LLMs Are Likely to Remain Best At
 
 Even under strong structural architectures, LLMs may remain difficult to replace for:
 
@@ -2164,7 +2173,7 @@ bootstrapping unknown structural regions.
 
 Thus future Structural Intelligence should exploit LLM strengths rather than attempt to reproduce them unnecessarily.
 
-86. What Explicit Structure Is Likely to Remain Best At
+# 86. What Explicit Structure Is Likely to Remain Best At
 
 Explicit structure has natural advantages in:
 
@@ -2185,7 +2194,7 @@ $$ \boxed{ LLM\ Strength + Structural\ Strength } $$
 
 is the more important research target.
 
-87. The Architecture Should Preserve Complementarity
+# 87. The Architecture Should Preserve Complementarity
 
 A bad hybrid architecture may force:
 
@@ -2216,7 +2225,7 @@ Can Localization quality predict reasoning success?
 
 This can become an independent research field.
 
-89. Research Program: Unfolding
+# 89. Research Program: Unfolding
 
 Important questions include:
 
@@ -2229,7 +2238,7 @@ Should Folding and Unfolding be separate models?
 
 This is a major open direction.
 
-90. Research Program: Unfolding–Localization Alignment
+# 90. Research Program: Unfolding–Localization Alignment
 
 A particularly important problem is:
 
@@ -2245,7 +2254,7 @@ Can alignment be measured automatically?
 
 This could become a practical reasoning benchmark.
 
-91. Research Program: Structural Delta
+# 91. Research Program: Structural Delta
 
 Future systems need reliable transformation:
 
@@ -2263,7 +2272,7 @@ provenance.
 
 Without reliable Structural Delta extraction, Living Reasoning remains difficult.
 
-92. Research Program: Validation
+# 92. Research Program: Validation
 
 A future reasoning architecture requires validators as seriously as it requires generators.
 
@@ -2277,7 +2286,7 @@ $$ \boxed{ Generation + Validation } $$
 
 should become a first-class architectural pair.
 
-93. Research Program: Structural Persistence
+# 93. Research Program: Structural Persistence
 
 Important questions include:
 
@@ -2294,7 +2303,8 @@ This is not merely a memory problem.
 It is:
 
 $$ \boxed{ Intelligence\ Lifecycle\ Management } $$
-94. Research Program: Living Reasoning
+
+# 94. Research Program: Living Reasoning
 
 Living Reasoning raises questions about:
 
@@ -2314,7 +2324,8 @@ $$ Growth $$
 with:
 
 $$ Stability $$
-95. Research Program: Structural Autonomy
+
+# 95. Research Program: Structural Autonomy
 
 Autonomy can be decomposed into measurable capabilities:
 
@@ -2322,7 +2333,7 @@ $$ Detect $$ $$ Prioritize $$ $$ Localize $$ $$ Reason $$ $$ Act $$ $$ Validate 
 
 This is preferable to treating autonomy as one vague scalar.
 
-96. Research Program: Collective Learning
+# 96. Research Program: Collective Learning
 
 A future Collective Learning system must answer:
 
@@ -2340,7 +2351,7 @@ $$ \boxed{ Collective\ Learning } $$
 
 requires structural governance as much as intelligence.
 
-97. Experimental Architecture 1 — Localize Before Reason
+# 97. Experimental Architecture 1 — Localize Before Reason
 
 A minimal experiment can compare:
 
@@ -2359,7 +2370,7 @@ failure localization.
 
 This directly tests whether explicit Localization improves reasoning.
 
-98. Experimental Architecture 2 — Gap-Addressed Reasoning
+# 98. Experimental Architecture 2 — Gap-Addressed Reasoning
 
 Compare:
 
@@ -2381,7 +2392,7 @@ $$ BridgeAccuracy $$ $$ ReasoningCost $$ $$ ValidationRate $$
 
 This tests addressable reasoning.
 
-99. Experimental Architecture 3 — LLM vs Heterogeneous Per-Node Intelligence
+# 99. Experimental Architecture 3 — LLM vs Heterogeneous Per-Node Intelligence
 
 Compare:
 
@@ -2403,7 +2414,7 @@ explainability.
 
 This tests reasoning division of labor.
 
-100. Experimental Architecture 4 — Unfolding Breadth Control
+# 100. Experimental Architecture 4 — Unfolding Breadth Control
 
 Given the same localized region, vary:
 
@@ -2422,7 +2433,7 @@ useful structural delta.
 
 This can begin operationalizing the Unfolding concept.
 
-101. Experimental Architecture 5 — Living Reasoning
+# 101. Experimental Architecture 5 — Living Reasoning
 
 Start with:
 
@@ -2441,7 +2452,8 @@ Compare later-task performance.
 This directly tests:
 
 $$ \boxed{ Does\ Structural\ Growth improve\ future\ reasoning? } $$
-102. Experimental Architecture 6 — Gap-Driven Autonomy
+
+# 102. Experimental Architecture 6 — Gap-Driven Autonomy
 
 Provide a structural system containing known gaps.
 
@@ -2461,7 +2473,8 @@ the gaps.
 This tests the transition:
 
 $$ Prompt\text{-}Driven \rightarrow Gap\text{-}Driven $$
-103. Experimental Architecture 7 — Opportunity-Driven Extension
+
+# 103. Experimental Architecture 7 — Opportunity-Driven Extension
 
 Provide a complete but extensible structure.
 
@@ -2481,7 +2494,7 @@ future reuse.
 
 This begins testing Forward Extension.
 
-104. Experimental Architecture 8 — Dual Folding / Unfolding
+# 104. Experimental Architecture 8 — Dual Folding / Unfolding
 
 A longer-term experiment could compare:
 
@@ -2500,7 +2513,7 @@ candidate delta generation.
 
 This would test whether reasoning specialization creates benefits beyond ordinary inference scaling.
 
-105. Architecture Evolution Path
+# 105. Architecture Evolution Path
 
 A plausible engineering progression is:
 
@@ -2529,7 +2542,7 @@ This is not a prediction that every system must follow these stages.
 
 It is a structural roadmap.
 
-106. The Most Important Near-Term Transition
+# 106. The Most Important Near-Term Transition
 
 The most practical near-term transition may not be a completely new model architecture.
 
@@ -2548,7 +2561,7 @@ persistent growth.
 
 Therefore explicit Localization may be one of the highest-leverage engineering steps.
 
-107. The Most Important Model-Level Research Direction
+# 107. The Most Important Model-Level Research Direction
 
 At the model level, one particularly interesting question is:
 
@@ -2566,7 +2579,7 @@ more deliberately.
 
 The hypothetical Unfolding Transformer is one possible expression of that direction.
 
-108. The Most Important Runtime-Level Research Direction
+# 108. The Most Important Runtime-Level Research Direction
 
 At runtime level, the central problem is:
 
@@ -2578,7 +2591,7 @@ $$ Localization + StructuralDelta + Validation + Promotion + Reuse $$
 
 Without this loop, reasoning remains largely episodic.
 
-109. The Most Important Autonomy-Level Research Direction
+# 109. The Most Important Autonomy-Level Research Direction
 
 At autonomy level, the key transition is:
 
@@ -2600,7 +2613,7 @@ $$ StructuralOpportunity $$
 
 can generate the next task, a new class of AI runtime becomes possible.
 
-110. The Most Important Safety-Level Research Direction
+# 110. The Most Important Safety-Level Research Direction
 
 The central question is not simply:
 
@@ -2616,7 +2629,7 @@ $$ \boxed{ Policy + Runtime\ Invariants + Validation + Audit + Human\ Escalation
 
 as architectural requirements rather than afterthoughts.
 
-111. Future AI Reasoning Is Likely to Be Hybrid
+# 111. Future AI Reasoning Is Likely to Be Hybrid
 
 No single mechanism currently appears sufficient for all reasoning tasks.
 
@@ -2628,7 +2641,7 @@ The key research problem becomes orchestration.
 
 Structural Intelligence offers one candidate language for that orchestration.
 
-112. Future AI Reasoning Is Likely to Be Layered
+# 112. Future AI Reasoning Is Likely to Be Layered
 
 A future system may separate:
 
@@ -2638,7 +2651,7 @@ This layering resembles the evolution of many mature engineering disciplines.
 
 As systems grow, explicit interfaces become increasingly valuable.
 
-113. Future AI Reasoning Is Likely to Be Persistent
+# 113. Future AI Reasoning Is Likely to Be Persistent
 
 A mature reasoning system should increasingly ask:
 
@@ -2656,7 +2669,7 @@ may become a central transition.
 
 Reasoning becomes cumulative infrastructure.
 
-114. Future AI Reasoning Is Likely to Be Living
+# 114. Future AI Reasoning Is Likely to Be Living
 
 Once:
 
@@ -2682,7 +2695,7 @@ $$ \boxed{ Reason \rightarrow Grow \rightarrow Reason } $$
 
 may become the defining loop of advanced AI systems.
 
-115. Future AI Reasoning Is Likely to Be Governed
+# 115. Future AI Reasoning Is Likely to Be Governed
 
 Increasing autonomy increases the importance of:
 
@@ -2694,7 +2707,7 @@ $$ \boxed{ More\ Autonomous \Rightarrow More\ Structural\ Governance } $$
 
 should be treated as a design principle.
 
-116. The Grand Architecture
+# 116. The Grand Architecture
 
 The entire proposal can be compressed into:
 
@@ -2757,7 +2770,7 @@ The entire proposal can be compressed into:
 
 This is the proposed architecture of Living Structural Reasoning.
 
-117. Canonical Architecture Equation
+# 117. Canonical Architecture Equation
 
 The architecture can be summarized as:
 
@@ -2779,7 +2792,7 @@ This is not intended as a numerical equation.
 
 It is an architectural decomposition.
 
-118. Canonical Evolution Equation
+# 118. Canonical Evolution Equation
 
 At time \(t\):
 
@@ -2815,7 +2828,7 @@ $$ \boxed{ S_t \rightarrow L_t \rightarrow U_t \rightarrow V_t \rightarrow S_{t+
 
 This is the canonical future reasoning loop.
 
-119. Core Predictions
+# 119. Core Predictions
 
 The framework suggests several testable architectural predictions.
 
@@ -2859,7 +2872,7 @@ Prediction 10
 
 The most capable systems will combine model intelligence with persistent Structural Intelligence rather than depending exclusively on either.
 
-120. Core Propositions
+# 120. Core Propositions
 Proposition 1 — Future reasoning architectures will increasingly differentiate reasoning functions
 $$ \boxed{ Monolithic \rightarrow Specialized } $$
 Proposition 2 — LLM reasoning can be interpreted as selective Unfolding of folded intelligence
@@ -2888,7 +2901,8 @@ Proposition 11 — Internally generated gaps and opportunities provide a path fr
 $$ \boxed{ Prompt \rightarrow Gap \rightarrow Opportunity } $$
 Proposition 12 — Future advanced AI is likely to be a coordinated system rather than merely a larger isolated model
 $$ \boxed{ Model \rightarrow Reasoning\ Architecture \rightarrow Living\ Intelligence } $$
-121. Central Thesis
+
+# 121. Central Thesis
 
 The central thesis of this paper is:
 
@@ -2918,7 +2932,7 @@ the system moves beyond episodic inference.
 
 It begins to develop.
 
-122. Conclusion
+# 122. Conclusion
 
 The first generation of modern AI reasoning has demonstrated something profound:
 
@@ -2987,9 +3001,9 @@ How should folded intelligence, structural intelligence, reasoning engines, acti
 
 That question opens a substantially larger design space for the next generation of AI reasoning systems.
 
-Next
+# Next
 
-STAR-009 — Structural Theory of AI Reasoning: Canonical Synthesis and Grand Map
+**STAR-009** — Structural Theory of AI Reasoning: Canonical Synthesis and Grand Map
 
 The next paper will consolidate the full STAR series into one canonical framework.
 
