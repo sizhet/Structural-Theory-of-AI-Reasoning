@@ -1710,7 +1710,7 @@ Then read:
 
 At that point, the full repository can be compressed into one line:
 
-$$ \boxed{ \textbf{ Answer \rightarrow Structure \rightarrow Unfolding \leftrightarrow Localization \rightarrow Growth \rightarrow Living\ Intelligence } } $$
+$$ \boxed{ \textbf{ Answer $\rightarrow$ Structure $\rightarrow$ Unfolding $\leftrightarrow$ Localization $\rightarrow$ Growth $\rightarrow$ Living\ Intelligence } } $$
 
 And into one final question:
 
