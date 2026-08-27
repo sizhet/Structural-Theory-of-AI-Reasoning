@@ -3036,32 +3036,3 @@ A more architectural question emerges:
 > **How should folded intelligence, structural intelligence, reasoning engines, actions, validation, and persistent growth be organized so that reasoning becomes cumulative, controllable, reusable, and alive?**
 
 That question opens a substantially larger design space for the next generation of AI reasoning systems.
-
-# Next
-
-### STAR-009 — Structural Theory of AI Reasoning: Canonical Synthesis and Grand Map
-
-The next paper will consolidate the full STAR series into one canonical framework.
-
-Its central map will connect:
-
-$$ \boxed{ AI\ Reasoning } $$
-
-to:
-
-$$ \boxed{ Per\text{-}Node\ Intelligence } $$ $$ \boxed{ Localization } $$ $$ \boxed{ LLM\ Folding / Unfolding } $$ $$ \boxed{ CallingGraph } $$ $$ \boxed{ Gap\ Bridging } $$ $$ \boxed{ TaskGraph } $$ $$ \boxed{ ActionCG } $$ $$ \boxed{ Core\text{-}Preserved\ Coding } $$ $$ \boxed{ Validation } $$ $$ \boxed{ Structural\ Growth } $$
-
-and:
-
-$$ \boxed{ Living\ Reasoning } $$
-
-into one unified reasoning architecture:
-
-$$ \boxed{ FOLD \rightarrow LOCALIZE \rightarrow UNFOLD \rightarrow REASON \rightarrow BRIDGE \rightarrow ACT \rightarrow VALIDATE \rightarrow GROW \rightarrow REFOLD } $$
-
-The goal will be to compress the repository into a single answer to one foundational question:
-
-> **What is the structural mechanism by which AI reasoning is formed, directed, executed, preserved, and evolved?**
-
-
-
