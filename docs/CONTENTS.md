@@ -1811,17 +1811,17 @@ $$
 \boxed{
 \textbf{
 Answer
-\rightarrow
+$\rightarrow$
 Structure
-\rightarrow
+$\rightarrow$
 Unfolding
-\leftrightarrow
+$\leftrightarrow$
 Localization
-\rightarrow
+$\rightarrow$
 Validation
-\rightarrow
+$\rightarrow$
 Growth
-\rightarrow
+$\rightarrow$
 Living\ Intelligence
 }
 }
