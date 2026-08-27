@@ -1524,6 +1524,6 @@ $$ \boxed{ \textbf{ AI\ Reasoning = Localization + Unfolding + Structural\ Opera
 
 and, when the loop closes:
 
-$$ \boxed{ \textbf{ Living\ AI = Reasoning \rightarrow Structural\ Growth \rightarrow Reasoning } } $$
+$$ \boxed{ \textbf{ Living\ AI = Reasoning $\rightarrow$ Structural\ Growth $\rightarrow$ Reasoning } } $$
 
 
