@@ -3,7 +3,7 @@ message: "If you use this repository in your research, please cite it using the 
 
 title: "Structural Theory of AI Reasoning — From LLM Unfolding to Structural Localization and Living Reasoning"
 
-type: workingpaper
+type: software
 
 authors:
   - family-names: "Tan"
