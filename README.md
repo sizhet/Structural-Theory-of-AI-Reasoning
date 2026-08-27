@@ -1112,27 +1112,30 @@ This provides a path from AI reasoning to shared intelligence infrastructure.
 ## 35. Repository Structure
 
     Structural-Theory-of-AI-Reasoning/
-    │
-    ├── README.md
-    │
-    ├── STAR-001-WHAT-IS-AI-REASONING.md
-    ├── STAR-002-FROM-ANSWERS-TO-STRUCTURAL-GROWTH.md
-    ├── STAR-003-HOW-STRUCTURAL-INTELLIGENCE-REASONS.md
-    ├── STAR-004-HOW-CAN-AN-LLM-REASON.md
-    ├── STAR-005-LLM-FOLDING-AND-UNFOLDING.md
-    ├── STAR-006-UNFOLDING-MEETS-LOCALIZATION.md
-    ├── STAR-007-THE-LIVING-REASONING-LOOP.md
-    ├── STAR-008-FUTURE-AI-REASONING-ARCHITECTURES.md
-    │
-    └── figures/
-        ├── Fig-001-Answer-vs-Structural-Growth.png
-        ├── Fig-002-Structural-Reasoning-Stack.png
-        ├── Fig-003-LLM-Reasoning-Beyond-WTA.png
-        ├── Fig-004-LLM-Folding-Unfolding.png
-        ├── Fig-005-Unfolding-Meets-Localization.png
-        ├── Fig-006-Localization-Unfolding-Handshake.png
-        ├── Fig-007-Living-Reasoning-Loop.png
-        └── Fig-008-Future-Reasoning-Architecture.png
+        ├── README.md
+        └── docs/
+            │
+            ├── START-HERE.md 
+            ├── CONTENTS.md
+            ├── FIGURE-INDEX.md
+            ├── STAR-001-WHAT-IS-AI-REASONING.md
+            ├── STAR-002-FROM-ANSWERS-TO-STRUCTURAL-GROWTH.md
+            ├── STAR-003-HOW-STRUCTURAL-INTELLIGENCE-REASONS.md
+            ├── STAR-004-HOW-CAN-AN-LLM-REASON.md
+            ├── STAR-005-LLM-FOLDING-AND-UNFOLDING.md
+            ├── STAR-006-UNFOLDING-MEETS-LOCALIZATION.md
+            ├── STAR-007-THE-LIVING-REASONING-LOOP.md
+            ├── STAR-008-FUTURE-AI-REASONING-ARCHITECTURES.md
+            │
+            └── figures/
+                ├── Fig-001-Answer-vs-Structural-Growth.png
+                ├── Fig-002-Structural-Reasoning-Stack.png
+                ├── Fig-003-LLM-Reasoning-Beyond-WTA.png
+                ├── Fig-004-LLM-Folding-Unfolding.png
+                ├── Fig-005-Unfolding-Meets-Localization.png
+                ├── Fig-006-Localization-Unfolding-Handshake.png
+                ├── Fig-007-Living-Reasoning-Loop.png
+                └── Fig-008-Future-Reasoning-Architecture.png
 
 ## 36. Reading Guide
 
