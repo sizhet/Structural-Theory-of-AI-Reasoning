@@ -611,7 +611,7 @@ Observation produces evidence.
 
 Validation asks:
 
-Should the candidate structural change be accepted?
+> Should the candidate structural change be accepted?
 
 Thus:
 
@@ -660,11 +660,11 @@ This remains the dominant form of conversational AI interaction.
 
 A prompt-driven system does not necessarily ask:
 
-What is missing?
-What is inconsistent?
-What should be investigated?
-What structure should be improved?
-Which task should come next?
+- What is missing?
+- What is inconsistent?
+- What should be investigated?
+- What structure should be improved?
+- Which task should come next?
 
 Instead:
 
@@ -726,15 +726,15 @@ This is a major step beyond prompt-driven QA.
 
 A gap may represent:
 
-missing knowledge;
-missing dependency;
-missing computation;
-missing action;
-missing evidence;
-missing condition;
-missing context;
-unresolved contradiction;
-unsupported transition.
+- missing knowledge;
+- missing dependency;
+- missing computation;
+- missing action;
+- missing evidence;
+- missing condition;
+- missing context;
+- unresolved contradiction;
+- unsupported transition.
 
 Once represented explicitly:
 
@@ -780,14 +780,14 @@ $$ Priority(G_i) $$
 
 Possible factors include:
 
-importance;
-urgency;
-dependency centrality;
-risk;
-uncertainty;
-expected value;
-cost;
-solvability.
+- importance;
+- urgency;
+- dependency centrality;
+- risk;
+- uncertainty;
+- expected value;
+- cost;
+- solvability.
 
 Thus:
 
@@ -833,13 +833,13 @@ A TaskGraph should not be treated only as a static plan.
 
 It can change through:
 
-new tasks;
-completed tasks;
-failed tasks;
-discovered dependencies;
-new gaps;
-changed priorities;
-newly available actions.
+- new tasks;
+- completed tasks;
+- failed tasks;
+- discovered dependencies;
+- new gaps;
+- changed priorities;
+- newly available actions.
 
 Thus:
 
@@ -877,9 +877,10 @@ The execution structure has grown.
 
 This gives two coupled growth processes.
 
-Reasoning-Level Growth
+### Reasoning-Level Growth
 $$ TaskGraph_t \rightarrow TaskGraph_{t+1} $$
-Execution-Level Growth
+
+### Execution-Level Growth
 $$ ActionCG_t \rightarrow ActionCG_{t+1} $$
 
 Together:
@@ -918,9 +919,10 @@ This is the deeper relationship between AI Coding and AI Reasoning.
 
 The two processes can be written:
 
-Core-Preserved Coding
+### Core-Preserved Coding
 $$ Existing\ Code\ Core \rightarrow Gap \rightarrow Extension \rightarrow Validation \rightarrow Expanded\ Core $$
-Core-Preserved Reasoning
+
+### Core-Preserved Reasoning
 $$ Existing\ Intelligence\ Core \rightarrow Gap \rightarrow Reasoning \rightarrow Validation \rightarrow Expanded\ Intelligence\ Core $$
 
 Therefore:
@@ -1029,18 +1031,18 @@ The distinction matters for autonomous intelligence.
 
 Forward Extension asks:
 
-What useful structure could be created beyond the current frontier?
+> What useful structure could be created beyond the current frontier?
 
 Examples include:
 
-a new research question;
-a new algorithm;
-a new experiment;
-a new branch;
-a new tool;
-a new abstraction;
-a new Function Tunnel;
-a new Runtime Invariant.
+- a new research question;
+- a new algorithm;
+- a new experiment;
+- a new branch;
+- a new tool;
+- a new abstraction;
+- a new Function Tunnel;
+- a new Runtime Invariant.
 
 Thus:
 
@@ -1052,11 +1054,13 @@ It creates new possibilities rather than merely closing gaps.
 
 AI reasoning can therefore be classified by its initiating condition.
 
-Regime I — Prompt-Driven
+### Regime I — Prompt-Driven
 $$ HumanPrompt \rightarrow Reasoning $$
-Regime II — Gap-Driven
+
+### Regime II — Gap-Driven
 $$ StructuralGap \rightarrow Reasoning $$
-Regime III — Opportunity-Driven
+
+### Regime III — Opportunity-Driven
 $$ StructuralOpportunity \rightarrow Reasoning $$
 
 This gives:
@@ -1093,12 +1097,12 @@ $$ \boxed{ Living = Continuous\ Governed\ Structural\ Adaptation } $$
 
 Every significant structural change may require:
 
-policy checks;
-validation;
-confidence thresholds;
-tests;
-Runtime Invariants;
-human approval.
+- policy checks;
+- validation;
+- confidence thresholds;
+- tests;
+- Runtime Invariants;
+- human approval.
 
 Growth and governance must coexist.
 
@@ -1136,11 +1140,11 @@ $$ S_{t+1} = S_t + Everything $$
 
 This leads to:
 
-duplication;
-contradiction;
-fragmentation;
-structural noise;
-maintenance cost.
+- duplication;
+- contradiction;
+- fragmentation;
+- structural noise;
+- maintenance cost.
 
 Therefore:
 
@@ -1179,11 +1183,11 @@ Living systems also need forgetting.
 
 A structure may become:
 
-obsolete;
-contradicted;
-redundant;
-low-value;
-superseded.
+- obsolete;
+- contradicted;
+- redundant;
+- low-value;
+- superseded.
 
 Therefore:
 
@@ -1239,10 +1243,10 @@ $$ \boxed{ Refolding } $$
 
 Refolding can:
 
-compress repeated patterns;
-create abstractions;
-merge redundant structures;
-produce reusable higher-level objects.
+- compress repeated patterns;
+- create abstractions;
+- merge redundant structures;
+- produce reusable higher-level objects.
 
 Thus the living loop includes both expansion and compression.
 
@@ -1489,12 +1493,12 @@ $$ \boxed{ Structural\ Debt } $$
 
 Examples include:
 
-duplicate nodes;
-inconsistent rules;
-stale dependencies;
-overlapping TaskGraphs;
-unvalidated edges;
-obsolete policies.
+- duplicate nodes;
+- inconsistent rules;
+- stale dependencies;
+- overlapping TaskGraphs;
+- unvalidated edges;
+- obsolete policies.
 
 Thus every Living Reasoning architecture needs:
 
@@ -1590,11 +1594,11 @@ $$ \boxed{ Observe \rightarrow Detect \rightarrow Prioritize \rightarrow Localiz
 
 The human may remain:
 
-governor;
-approver;
-collaborator;
-source of goals;
-escalation target.
+- governor;
+- approver;
+- collaborator;
+- source of goals;
+- escalation target.
 
 Autonomy does not require removing human participation.
 
@@ -1606,15 +1610,15 @@ $$ Non\text{-}ASI \rightarrow ASI $$
 
 Instead, systems may progressively acquire:
 
-autonomous gap detection;
-autonomous task creation;
-autonomous localization;
-autonomous reasoning allocation;
-autonomous action;
-autonomous validation;
-governed structural promotion;
-meta-reasoning;
-forward extension.
+1. autonomous gap detection;
+2. autonomous task creation;
+3. autonomous localization;
+4. autonomous reasoning allocation;
+5. autonomous action;
+6. autonomous validation;
+7. governed structural promotion;
+8. meta-reasoning;
+9. forward extension.
 
 Thus:
 
@@ -1623,23 +1627,32 @@ $$ \boxed{ ASI \ can\ be\ studied \ as\ a\ structural\ capability\ ladder } $$
 rather than only as a vague intelligence threshold.
 
 # 64. A Structural Autonomy Ladder
-Level 0 — Answering
+
+### Level 0 — Answering
 $$ Prompt \rightarrow Answer $$
-Level 1 — Multi-Step Reasoning
+
+### Level 1 — Multi-Step Reasoning
 $$ Prompt \rightarrow ReasoningTrajectory \rightarrow Answer $$
-Level 2 — Localized Reasoning
+
+### Level 2 — Localized Reasoning
 $$ Prompt \rightarrow Localization \rightarrow Reasoning $$
-Level 3 — Persistent Structural Learning
+
+### Level 3 — Persistent Structural Learning
 $$ Reasoning \rightarrow \Delta S \rightarrow Preservation $$
-Level 4 — Gap-Driven Reasoning
+
+### Level 4 — Gap-Driven Reasoning
 $$ Gap \rightarrow Reasoning $$
-Level 5 — Action-Closed Reasoning
+
+### Level 5 — Action-Closed Reasoning
 $$ Gap \rightarrow Reason \rightarrow Act \rightarrow Observe $$
-Level 6 — Opportunity-Driven Extension
+
+### Level 6 — Opportunity-Driven Extension
 $$ Opportunity \rightarrow ForwardExtension $$
-Level 7 — Meta-Reasoning
+
+### Level 7 — Meta-Reasoning
 $$ ReasoningSystem \rightarrow ReasoningAboutReasoning $$
-Level 8 — Governed Living Structural Intelligence
+
+### Level 8 — Governed Living Structural Intelligence
 $$ \boxed{ Continuous\ Structural\ Evolution } $$
 
 This ladder provides a more operational way to discuss increasing AI autonomy.
@@ -1658,11 +1671,11 @@ $$ ExpectedValue > ExpectedCost $$
 
 subject to:
 
-policy;
-budget;
-priority;
-uncertainty;
-structural need.
+- policy;
+- budget;
+- priority;
+- uncertainty;
+- structural need.
 
 Thus:
 
@@ -1700,17 +1713,18 @@ Autonomy includes knowing when not to reason.
 
 Different structural states may require different reasoning regimes.
 
-Normal Mode
+### Normal Mode
 $$ Routine\ Gap \rightarrow Bounded\ Reasoning $$
-Emergency Mode
+
+### Emergency Mode
 $$ Critical\ Gap \rightarrow Rapid\ Escalation \rightarrow Expanded\ Reasoning $$
 
 Thus the Living Reasoning Loop can change its operating mode according to:
 
-risk;
-urgency;
-uncertainty;
-structural damage.
+- risk;
+- urgency;
+- uncertainty;
+- structural damage.
 
 This connects reasoning architecture with runtime governance.
 
@@ -1718,13 +1732,13 @@ This connects reasoning architecture with runtime governance.
 
 Policy can govern:
 
-which gaps may trigger reasoning;
-which models may be invoked;
-how much compute may be used;
-which actions are permitted;
-what requires human approval;
-what may be preserved;
-what may be refolded.
+- which gaps may trigger reasoning;
+- which models may be invoked;
+- how much compute may be used;
+- which actions are permitted;
+- what requires human approval;
+- what may be preserved;
+- what may be refolded.
 
 Therefore:
 
@@ -1742,18 +1756,18 @@ $$ Condition + Context \rightarrow Computation $$
 
 For example:
 
-Condition:
-    unresolved structural gap
-
-Context:
-    high-value task
-    sufficient evidence
-    reasoning budget available
-
-Computation:
-    localize gap
-    invoke unfolding
-    validate candidate bridge
+    Condition:
+        unresolved structural gap
+    
+    Context:
+        high-value task
+        sufficient evidence
+        reasoning budget available
+    
+    Computation:
+        localize gap
+        invoke unfolding
+        validate candidate bridge
 
 Thus:
 
@@ -1846,15 +1860,15 @@ $$ \boxed{ S_{t+1} = \Phi( S_t, O_t, L_t, U_t, R_t, A_t, E_t, V_t, P_t ) } $$
 
 where:
 
-\(S_t\) = current Structural Intelligence;
-\(O_t\) = observation;
-\(L_t\) = localization;
-\(U_t\) = unfolding;
-\(R_t\) = reasoning;
-\(A_t\) = action;
-\(E_t\) = resulting evidence;
-\(V_t\) = validation;
-\(P_t\) = promotion/preservation.
+- \(S_t\) = current Structural Intelligence;
+- \(O_t\) = observation;
+- \(L_t\) = localization;
+- \(U_t\) = unfolding;
+- \(R_t\) = reasoning;
+- \(A_t\) = action;
+- \(E_t\) = resulting evidence;
+- \(V_t\) = validation;
+- \(P_t\) = promotion/preservation.
 
 The next cycle operates on:
 
@@ -1922,13 +1936,13 @@ Thus the intelligence system itself has a developmental history.
 
 Because structural changes are explicit, the system can record:
 
-what changed;
-why it changed;
-which reasoning produced it;
-which evidence supported it;
-which validator approved it;
-which invariants were checked;
-what previous structure was preserved.
+- what changed;
+- why it changed;
+- which reasoning produced it;
+- which evidence supported it;
+- which validator approved it;
+- which invariants were checked;
+- what previous structure was preserved.
 
 Thus:
 
@@ -1940,7 +1954,7 @@ This is an important advantage over opaque uncontrolled adaptation.
 
 The system can answer:
 
-Why are you reasoning now?
+> Why are you reasoning now?
 
 Because:
 
@@ -1948,19 +1962,19 @@ $$ Gap_{27} $$
 
 was detected.
 
-Why here?
+> Why here?
 
 Because:
 
 $$ Localization \rightarrow Node_{14} $$
 
-Why this model?
+> Why this model?
 
 Because:
 
 $$ Policy \rightarrow Reasoner_{LLM} $$
 
-Why was this structure preserved?
+> Why was this structure preserved?
 
 Because:
 
@@ -1974,15 +1988,15 @@ LLMs remain central to this architecture.
 
 They can provide:
 
-abstraction;
-generative reasoning;
-candidate structures;
-task decomposition;
-Gap-Why analysis;
-bridge generation;
-forward extension;
-critique;
-meta-reasoning.
+- abstraction;
+- generative reasoning;
+- candidate structures;
+- task decomposition;
+- Gap-Why analysis;
+- bridge generation;
+- forward extension;
+- critique;
+- meta-reasoning.
 
 But the LLM no longer needs to be:
 
@@ -2000,16 +2014,16 @@ The introduction of explicit structure should not be interpreted as reducing LLM
 
 LLMs may participate across:
 
-localization;
-Per-Node reasoning;
-traversal;
-gap detection;
-Gap Bridging;
-TaskGraph growth;
-ActionCG growth;
-validation;
-meta-reasoning;
-forward extension.
+- localization;
+- Per-Node reasoning;
+- traversal;
+- gap detection;
+- Gap Bridging;
+- TaskGraph growth;
+- ActionCG growth;
+- validation;
+- meta-reasoning;
+- forward extension.
 
 Thus:
 
@@ -2053,15 +2067,15 @@ A generic runtime coordinates operations.
 
 A Structural Runtime additionally maintains:
 
-structural addresses;
-explicit graphs;
-structural gaps;
-TaskGraphs;
-Action Calling Graphs;
-CCC triggers;
-Runtime Invariants;
-structural promotion;
-structural history.
+- structural addresses;
+- explicit graphs;
+- structural gaps;
+- TaskGraphs;
+- Action Calling Graphs;
+- CCC triggers;
+- Runtime Invariants;
+- structural promotion;
+- structural history.
 
 Thus:
 
@@ -2075,14 +2089,14 @@ A model can become more capable through scaling.
 
 But an autonomous intelligence system also needs to answer:
 
-What should I work on?
-Where is the important gap?
-What can I safely change?
-What should I preserve?
-What should I forget?
-What should I build next?
-When should I stop?
-When should I ask a human?
+- What should I work on?
+- Where is the important gap?
+- What can I safely change?
+- What should I preserve?
+- What should I forget?
+- What should I build next?
+- When should I stop?
+- When should I ask a human?
 
 These are not merely model-capacity questions.
 
@@ -2096,7 +2110,7 @@ This is why Living Reasoning matters for ASI.
 
 Within this framework:
 
-Autonomous Structural Intelligence is an intelligence system capable of repeatedly detecting or generating meaningful structural tasks, localizing them, invoking appropriate reasoning and action mechanisms, validating resulting structural changes, preserving useful growth, and using the evolved structure to generate subsequent reasoning cycles under explicit governance.
+> **Autonomous Structural Intelligence is an intelligence system capable of repeatedly detecting or generating meaningful structural tasks, localizing them, invoking appropriate reasoning and action mechanisms, validating resulting structural changes, preserving useful growth, and using the evolved structure to generate subsequent reasoning cycles under explicit governance.**
 
 In compact form:
 
@@ -2208,11 +2222,13 @@ It is a structural map of an evolving intelligence lifecycle.
 
 The theory can be compressed into three transitions.
 
-Transition I — From Answer to Structure
+### Transition I — From Answer to Structure
 $$ \boxed{ Answer \rightarrow Structural\ Delta } $$
-Transition II — From External Prompt to Internal Trigger
+
+### Transition II — From External Prompt to Internal Trigger
 $$ \boxed{ Prompt \rightarrow Gap / Opportunity } $$
-Transition III — From Episode to Loop
+
+### Transition III — From Episode to Loop
 $$ \boxed{ Reasoning\ Episode \rightarrow Living\ Reasoning\ Cycle } $$
 
 Together, these transitions define the movement from ordinary AI reasoning toward Living Structural Intelligence.
@@ -2221,17 +2237,17 @@ Together, these transitions define the movement from ordinary AI reasoning towar
 
 A Living Reasoning system must repeatedly answer three questions.
 
-Question 1 — Where?
+### Question 1 — Where?
 $$ \boxed{ Localization } $$
 
 Where should reasoning occur?
 
-Question 2 — What?
+### Question 2 — What?
 $$ \boxed{ Unfolding } $$
 
 What intelligence should become operational there?
 
-Question 3 — What remains?
+### Question 3 — What remains?
 $$ \boxed{ Validation + Preservation } $$
 
 What should become part of future intelligence?
@@ -2246,7 +2262,7 @@ This is the minimal architecture of cumulative reasoning.
 
 Living Reasoning adds one more question:
 
-What should happen next?
+> **What should happen next?**
 
 This can be answered by:
 
@@ -2263,7 +2279,8 @@ $$ \boxed{ Where? \rightarrow What? \rightarrow What\ Remains? \rightarrow What\
 The fourth question closes the loop.
 
 # 93. Research Questions
-RQ-1 — What qualifies as a useful Structural Delta?
+
+### RQ-1 — What qualifies as a useful Structural Delta?
 
 How should the future value of:
 
@@ -2271,12 +2288,13 @@ $$ \Delta S $$
 
 be measured?
 
-RQ-2 — When should reasoning output be promoted?
+### RQ-2 — When should reasoning output be promoted?
 
 What thresholds should govern:
 
 $$ Transient \rightarrow Persistent $$
-RQ-3 — How should structural conflicts be resolved?
+
+### RQ-3 — How should structural conflicts be resolved?
 
 What happens when:
 
@@ -2289,78 +2307,92 @@ $$ S_t $$
 or another:
 
 $$ \Delta S_b $$
-RQ-4 — How should gaps be prioritized?
+
+### RQ-4 — How should gaps be prioritized?
 
 Can we define:
 
 $$ GapPriority = f(Value,Risk,Centrality,Uncertainty,Cost) $$
-RQ-5 — How should opportunities be detected?
+
+### RQ-5 — How should opportunities be detected?
 
 Can Forward Extension be made systematic rather than purely generative?
 
-RQ-6 — How should TaskGraph and ActionCG co-evolve?
+### RQ-6 — How should TaskGraph and ActionCG co-evolve?
 
 Can reasoning-level and execution-level growth remain synchronized?
 
-RQ-7 — How should structural decay work?
+### RQ-7 — How should structural decay work?
 
 When should old structures be demoted, archived, merged, or removed?
 
-RQ-8 — How should Refolding work?
+### RQ-8 — How should Refolding work?
 
 Can accumulated explicit intelligence be safely compressed into higher-level abstractions or model capability?
 
-RQ-9 — How should meta-reasoning be governed?
+### RQ-9 — How should meta-reasoning be governed?
 
 When may a system modify the structures controlling its own reasoning?
 
-RQ-10 — How should structural autonomy be measured?
+### RQ-10 — How should structural autonomy be measured?
 
 Can the autonomy ladder proposed here become an experimental framework?
 
-RQ-11 — How should Living Reasoning efficiency be measured?
+### RQ-11 — How should Living Reasoning efficiency be measured?
 
 Can immediate and future structural value be jointly evaluated?
 
-RQ-12 — How can Collective Learning use the Living Reasoning Loop?
+### RQ-12 — How can Collective Learning use the Living Reasoning Loop?
 
 Can validated structural deltas from many humans and AIs become shared reasoning infrastructure?
 
 # 94. Core Propositions
-Proposition 1 — Reasoning can produce more than an answer
+
+### Proposition 1 — Reasoning can produce more than an answer
 $$ \boxed{ Output = Answer + Structural\ Delta } $$
-Proposition 2 — Reasoning becomes cumulative when validated deltas persist
+
+### Proposition 2 — Reasoning becomes cumulative when validated deltas persist
 $$ \boxed{ S_t \rightarrow R_t \rightarrow S_{t+1} } $$
-Proposition 3 — Living Reasoning requires future operational reuse
+
+### Proposition 3 — Living Reasoning requires future operational reuse
 $$ \boxed{ Persistence + Reuse \rightarrow Living\ Structure } $$
-Proposition 4 — Structural gaps can become internal reasoning triggers
+
+### Proposition 4 — Structural gaps can become internal reasoning triggers
 $$ \boxed{ Gap \rightarrow Reasoning } $$
-Proposition 5 — Opportunities can trigger proactive reasoning
+
+### Proposition 5 — Opportunities can trigger proactive reasoning
 $$ \boxed{ Opportunity \rightarrow Forward\ Extension } $$
-Proposition 6 — TaskGraph and ActionCG can co-evolve
+
+### Proposition 6 — TaskGraph and ActionCG can co-evolve
 $$ \boxed{ TaskGraph \leftrightarrow ActionCG } $$
-Proposition 7 — Reasoning can grow its own executable capability
+
+### Proposition 7 — Reasoning can grow its own executable capability
 $$ \boxed{ Reasoning \rightarrow Tool\ Growth \rightarrow Reasoning } $$
-Proposition 8 — Structural learning does not require immediate parameter learning
+
+### Proposition 8 — Structural learning does not require immediate parameter learning
 $$ \boxed{ \theta_{t+1} = \theta_t } $$
 
 while:
 
 $$ \boxed{ S_{t+1} \neq S_t } $$
-Proposition 9 — Living structural growth requires pruning and maintenance
+
+### Proposition 9 — Living structural growth requires pruning and maintenance
 $$ \boxed{ Growth \neq Accumulation } $$
-Proposition 10 — Living Reasoning must remain governed
+
+### Proposition 10 — Living Reasoning must remain governed
 $$ \boxed{ Autonomy + Validation + Policy + Invariants } $$
-Proposition 11 — Meta-reasoning can improve the reasoning system itself
+
+### Proposition 11 — Meta-reasoning can improve the reasoning system itself
 $$ \boxed{ Reasoning \rightarrow ReasoningAboutReasoning \rightarrow BetterReasoning } $$
-Proposition 12 — Collective Learning can be interpreted as Living Reasoning at social scale
+
+### Proposition 12 — Collective Learning can be interpreted as Living Reasoning at social scale
 $$ \boxed{ Many\ Reasoners \rightarrow Shared\ Structural\ Growth } $$
 
 # 95. Central Thesis
 
 The central thesis of this paper is:
 
-AI reasoning becomes living when validated reasoning products are converted into persistent structural changes, those changes participate operationally in future reasoning, and the evolving structure itself can generate new gaps, opportunities, tasks, and reasoning cycles.
+> **AI reasoning becomes living when validated reasoning products are converted into persistent structural changes, those changes participate operationally in future reasoning, and the evolving structure itself can generate new gaps, opportunities, tasks, and reasoning cycles.**
 
 The simplest form is:
 
@@ -2447,7 +2479,7 @@ That is necessary, but incomplete.
 
 A deeper question is:
 
-What remains after the answer has been produced?
+> **What remains after the answer has been produced?**
 
 If nothing remains except text, the next reasoning episode may begin almost from scratch.
 
@@ -2515,7 +2547,7 @@ That closure is one of the clearest structural pathways from contemporary AI rea
 
 # Next
 
-**STAR-008** — The Structural Theory of AI Reasoning: Canonical Synthesis
+#### STAR-008 — The Structural Theory of AI Reasoning: Canonical Synthesis
 
 The next paper will consolidate the complete theory developed across STAR-001 through STAR-007:
 
@@ -2531,4 +2563,4 @@ Can AI reason?
 
 It will become:
 
-How is reasoning localized, unfolded, structured, validated, preserved, and evolved into the infrastructure of future intelligence?
+> **How is reasoning localized, unfolded, structured, validated, preserved, and evolved into the infrastructure of future intelligence?**
